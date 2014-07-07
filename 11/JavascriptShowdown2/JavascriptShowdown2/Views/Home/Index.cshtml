@@ -1,0 +1,58 @@
+﻿@model JavascriptShowdown2.Models.HomeModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section JavaScript
+{
+   <script type="text/javascript" src="@Url.Content("/javascript/test.js")"></script>
+   <script type="text/javascript" src="@Url.Content("/javascript/JsonShowdown.js")"></script>
+}
+
+@{
+    if (@Model.Id == 1)
+    {
+        @Html.Raw("<span>Siema " + @Model.Name + "</span>")
+    }
+}
+
+<h2>Index</h2>
+
+
+
+<script>
+    // dane po stronie klienta
+    var tablica = [
+    {
+        Id: 1, Name: "Jazzzzzda"
+    },
+    {
+        Id: 2, Name: "Ostra jazda"
+    }];
+
+    // operacja po stronie klineta
+    RenderHtml(tablica);
+</script>
+
+
+<script>
+    // dane po stronie serwera
+    var tablica = [
+        @{
+            @Html.Raw("{ Id: 2, Name: \"Ostra jak cholera jazda\" },")
+            foreach (var item in @Model.ListaDanych)
+            {
+                @Html.Raw("{ Id: " + item.Key + ", Name: \"" + item.Value + "\" },")
+            }
+        }
+    ];
+
+    // operacja po stronie klineta
+    RenderHtml(tablica);
+</script>
+
+<script>
+    renderJson(returnSomeJson());
+</script>

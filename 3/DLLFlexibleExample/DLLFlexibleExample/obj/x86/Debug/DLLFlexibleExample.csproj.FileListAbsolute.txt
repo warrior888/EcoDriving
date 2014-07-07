@@ -1,0 +1,7 @@
+D:\praca\nowy potencjal\szkolenie\level 3\3\DLLFlexibleExample\DLLFlexibleExample\bin\Debug\DLLFlexibleExample.exe
+D:\praca\nowy potencjal\szkolenie\level 3\3\DLLFlexibleExample\DLLFlexibleExample\bin\Debug\DLLFlexibleExample.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\3\DLLFlexibleExample\DLLFlexibleExample\bin\Debug\dllExample.dll
+D:\praca\nowy potencjal\szkolenie\level 3\3\DLLFlexibleExample\DLLFlexibleExample\bin\Debug\dllExample.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\3\DLLFlexibleExample\DLLFlexibleExample\obj\x86\Debug\DLLFlexibleExample.csprojResolveAssemblyReference.cache
+D:\praca\nowy potencjal\szkolenie\level 3\3\DLLFlexibleExample\DLLFlexibleExample\obj\x86\Debug\DLLFlexibleExample.exe
+D:\praca\nowy potencjal\szkolenie\level 3\3\DLLFlexibleExample\DLLFlexibleExample\obj\x86\Debug\DLLFlexibleExample.pdb

@@ -1,0 +1,14 @@
+C:\Share\Docs\OBD2\ODB2Solution\ConsoleTest\bin\Debug\ConsoleTest.exe.manifest
+C:\Share\Docs\OBD2\ODB2Solution\ConsoleTest\bin\Debug\ConsoleTest.application
+C:\Share\Docs\OBD2\ODB2Solution\ConsoleTest\bin\Debug\ConsoleTest.exe
+C:\Share\Docs\OBD2\ODB2Solution\ConsoleTest\bin\Debug\ConsoleTest.pdb
+C:\Share\Docs\OBD2\ODB2Solution\ConsoleTest\bin\Debug\OBDIIEngineLibrary.dll
+C:\Share\Docs\OBD2\ODB2Solution\ConsoleTest\bin\Debug\OBDIIEngineLibrary.pdb
+C:\Share\Docs\OBD2\ODB2Solution\ConsoleTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Share\Docs\OBD2\ODB2Solution\ConsoleTest\obj\Debug\ConsoleTest.exe.manifest
+C:\Share\Docs\OBD2\ODB2Solution\ConsoleTest\obj\Debug\ConsoleTest.application
+C:\Share\Docs\OBD2\ODB2Solution\ConsoleTest\obj\Debug\ConsoleTest.exe
+C:\Share\Docs\OBD2\ODB2Solution\ConsoleTest\obj\Debug\ConsoleTest.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\ConsoleTest\obj\Debug\ConsoleTest.csprojResolveAssemblyReference.cache
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\ConsoleTest\obj\Debug\ConsoleTest.exe
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\ConsoleTest\obj\Debug\ConsoleTest.pdb

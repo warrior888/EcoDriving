@@ -1,0 +1,4 @@
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\7\Advisor\Advisor\bin\Debug\Advisor.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\7\Advisor\Advisor\bin\Debug\Advisor.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\7\Advisor\Advisor\obj\Debug\Advisor.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\7\Advisor\Advisor\obj\Debug\Advisor.pdb

@@ -1,0 +1,11 @@
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\bin\Release\obdLibWrapper.exe
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\bin\Release\obdLibWrapper.pdb
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Release\obdLibWrapper.Form1.resources
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Release\obdLibWrapper.Properties.Resources.resources
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Release\obdLibWrapper.exe
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Release\obdLibWrapper.pdb
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\bin\Release\ObdLibSharp.dll
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\bin\Release\ObdLibSharp.pdb

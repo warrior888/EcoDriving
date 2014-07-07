@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoDriving", "EcoDriving\EcoDriving.csproj", "{44C6AEEA-F218-495C-958C-7CBB9D0819A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XlsParser", "..\..\6\XlsParser\XlsParser\XlsParser.csproj", "{6E506F85-6333-4028-B2DF-2CD9071D883A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseAccess", "..\..\8\DatabaseAccess\DatabaseAccess\DatabaseAccess.csproj", "{2DD1882D-823D-492F-BDE2-B419ADB7422A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44C6AEEA-F218-495C-958C-7CBB9D0819A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C6AEEA-F218-495C-958C-7CBB9D0819A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C6AEEA-F218-495C-958C-7CBB9D0819A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C6AEEA-F218-495C-958C-7CBB9D0819A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E506F85-6333-4028-B2DF-2CD9071D883A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E506F85-6333-4028-B2DF-2CD9071D883A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E506F85-6333-4028-B2DF-2CD9071D883A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E506F85-6333-4028-B2DF-2CD9071D883A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD1882D-823D-492F-BDE2-B419ADB7422A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD1882D-823D-492F-BDE2-B419ADB7422A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD1882D-823D-492F-BDE2-B419ADB7422A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD1882D-823D-492F-BDE2-B419ADB7422A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

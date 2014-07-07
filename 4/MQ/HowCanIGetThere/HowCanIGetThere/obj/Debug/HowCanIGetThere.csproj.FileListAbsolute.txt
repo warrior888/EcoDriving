@@ -1,0 +1,21 @@
+D:\praca\nowy potencjal\szkolenie\level 3\4\HowCanIGetThere\HowCanIGetThere\bin\Debug\HowCanIGetThere.exe.config
+\\WARRIOR\szkolenie\level 3\4\Didi\HowCanIGetThere\HowCanIGetThere\bin\Debug\HowCanIGetThere.exe.config
+\\WARRIOR\szkolenie\level 3\4\Didi\HowCanIGetThere\HowCanIGetThere\bin\Debug\HowCanIGetThere.exe
+\\WARRIOR\szkolenie\level 3\4\Didi\HowCanIGetThere\HowCanIGetThere\bin\Debug\HowCanIGetThere.pdb
+\\WARRIOR\szkolenie\level 3\4\Didi\HowCanIGetThere\HowCanIGetThere\bin\Debug\Graph.dll
+\\WARRIOR\szkolenie\level 3\4\Didi\HowCanIGetThere\HowCanIGetThere\bin\Debug\Graph.pdb
+\\WARRIOR\szkolenie\level 3\4\Didi\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.csprojResolveAssemblyReference.cache
+\\WARRIOR\szkolenie\level 3\4\Didi\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.Properties.Resources.resources
+\\WARRIOR\szkolenie\level 3\4\Didi\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.csproj.GenerateResource.Cache
+\\WARRIOR\szkolenie\level 3\4\Didi\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.exe
+\\WARRIOR\szkolenie\level 3\4\Didi\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.pdb
+\\WARRIOR\szkolenie\level 3\4\MQ\HowCanIGetThere\HowCanIGetThere\bin\Debug\HowCanIGetThere.exe.config
+\\WARRIOR\szkolenie\level 3\4\MQ\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.exe
+\\WARRIOR\szkolenie\level 3\4\MQ\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.pdb
+\\WARRIOR\szkolenie\level 3\4\MQ\HowCanIGetThere\HowCanIGetThere\bin\Debug\HowCanIGetThere.exe
+\\WARRIOR\szkolenie\level 3\4\MQ\HowCanIGetThere\HowCanIGetThere\bin\Debug\HowCanIGetThere.pdb
+\\WARRIOR\szkolenie\level 3\4\MQ\HowCanIGetThere\HowCanIGetThere\bin\Debug\Graph.dll
+\\WARRIOR\szkolenie\level 3\4\MQ\HowCanIGetThere\HowCanIGetThere\bin\Debug\Graph.pdb
+\\WARRIOR\szkolenie\level 3\4\MQ\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.csprojResolveAssemblyReference.cache
+\\WARRIOR\szkolenie\level 3\4\MQ\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.Properties.Resources.resources
+\\WARRIOR\szkolenie\level 3\4\MQ\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.csproj.GenerateResource.Cache

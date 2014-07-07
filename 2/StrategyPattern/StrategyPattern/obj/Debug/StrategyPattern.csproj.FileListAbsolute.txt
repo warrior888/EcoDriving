@@ -1,0 +1,5 @@
+D:\praca\nowy potencjal\szkolenie\level 3\2\StrategyPattern\StrategyPattern\bin\Debug\StrategyPattern.exe.config
+D:\praca\nowy potencjal\szkolenie\level 3\2\StrategyPattern\StrategyPattern\bin\Debug\StrategyPattern.exe
+D:\praca\nowy potencjal\szkolenie\level 3\2\StrategyPattern\StrategyPattern\bin\Debug\StrategyPattern.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\2\StrategyPattern\StrategyPattern\obj\Debug\StrategyPattern.exe
+D:\praca\nowy potencjal\szkolenie\level 3\2\StrategyPattern\StrategyPattern\obj\Debug\StrategyPattern.pdb

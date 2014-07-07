@@ -1,0 +1,15 @@
+﻿@model JavascriptShowdown.Models.HomeModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    if (@Model.Id == 2)
+    {
+        @Html.Raw("<span>Siema</span>");
+    }
+}
+
+<h2>Index</h2>

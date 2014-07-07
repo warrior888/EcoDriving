@@ -1,0 +1,7 @@
+D:\praca\nowy potencjal\szkolenie\level 3\2\ObjectRealityModeling2\ObjectRealityModeling2\bin\Debug\ObjectRealityModeling2.exe.config
+D:\praca\nowy potencjal\szkolenie\level 3\2\ObjectRealityModeling2\ObjectRealityModeling2\obj\Debug\ObjectRealityModeling2.Properties.Resources.resources
+D:\praca\nowy potencjal\szkolenie\level 3\2\ObjectRealityModeling2\ObjectRealityModeling2\obj\Debug\ObjectRealityModeling2.csproj.GenerateResource.Cache
+D:\praca\nowy potencjal\szkolenie\level 3\2\ObjectRealityModeling2\ObjectRealityModeling2\bin\Debug\ObjectRealityModeling2.exe
+D:\praca\nowy potencjal\szkolenie\level 3\2\ObjectRealityModeling2\ObjectRealityModeling2\bin\Debug\ObjectRealityModeling2.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\2\ObjectRealityModeling2\ObjectRealityModeling2\obj\Debug\ObjectRealityModeling2.exe
+D:\praca\nowy potencjal\szkolenie\level 3\2\ObjectRealityModeling2\ObjectRealityModeling2\obj\Debug\ObjectRealityModeling2.pdb

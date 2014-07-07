@@ -1,0 +1,5 @@
+\\WARRIOR\szkolenie\level 3\4\dysku\GenericsExample\GenericsExample\bin\Debug\GenericsExample.exe.config
+\\WARRIOR\szkolenie\level 3\4\dysku\GenericsExample\GenericsExample\bin\Debug\GenericsExample.exe
+\\WARRIOR\szkolenie\level 3\4\dysku\GenericsExample\GenericsExample\bin\Debug\GenericsExample.pdb
+\\WARRIOR\szkolenie\level 3\4\dysku\GenericsExample\GenericsExample\obj\Debug\GenericsExample.exe
+\\WARRIOR\szkolenie\level 3\4\dysku\GenericsExample\GenericsExample\obj\Debug\GenericsExample.pdb

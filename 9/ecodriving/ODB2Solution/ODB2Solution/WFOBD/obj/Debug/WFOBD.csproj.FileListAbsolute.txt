@@ -1,0 +1,20 @@
+C:\Share\Docs\OBD2\ODB2Solution\WFOBD\bin\Debug\WFOBD.exe
+C:\Share\Docs\OBD2\ODB2Solution\WFOBD\bin\Debug\WFOBD.pdb
+C:\Share\Docs\OBD2\ODB2Solution\WFOBD\obj\Debug\ResolveAssemblyReference.cache
+C:\Share\Docs\OBD2\ODB2Solution\WFOBD\obj\Debug\WFOBD.Properties.Resources.resources
+C:\Share\Docs\OBD2\ODB2Solution\WFOBD\obj\Debug\WFOBD.csproj.GenerateResource.Cache
+C:\Share\Docs\OBD2\ODB2Solution\WFOBD\obj\Debug\WFOBD.exe
+C:\Share\Docs\OBD2\ODB2Solution\WFOBD\obj\Debug\WFOBD.pdb
+C:\Share\Docs\OBD2\ODB2Solution\WFOBD\bin\Debug\OBDIIEngineLibrary.dll
+C:\Share\Docs\OBD2\ODB2Solution\WFOBD\bin\Debug\OBDIIEngineLibrary.pdb
+C:\Share\Docs\OBD2\ODB2Solution\WFOBD\obj\Debug\WFOBD.frmMain.resources
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\WFOBD\obj\Debug\WFOBD.exe
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\WFOBD\obj\Debug\WFOBD.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\WFOBD\bin\Debug\WFOBD.exe
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\WFOBD\bin\Debug\WFOBD.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\WFOBD\bin\Debug\OBDIIEngineLibrary.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\WFOBD\bin\Debug\OBDIIEngineLibrary.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\WFOBD\obj\Debug\WFOBD.csprojResolveAssemblyReference.cache
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\WFOBD\obj\Debug\WFOBD.frmMain.resources
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\WFOBD\obj\Debug\WFOBD.Properties.Resources.resources
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\WFOBD\obj\Debug\WFOBD.csproj.GenerateResource.Cache

@@ -1,0 +1,9 @@
+D:\praca\nowy potencjal\szkolenie\level 3\2\TplExample\TplExample\bin\Debug\TplExample.exe.config
+D:\praca\nowy potencjal\szkolenie\level 3\2\TplExample\TplExample\bin\Debug\TplExample.exe
+D:\praca\nowy potencjal\szkolenie\level 3\2\TplExample\TplExample\bin\Debug\TplExample.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\2\TplExample\TplExample\obj\Debug\TplExample.csprojResolveAssemblyReference.cache
+D:\praca\nowy potencjal\szkolenie\level 3\2\TplExample\TplExample\obj\Debug\TplExample.Form1.resources
+D:\praca\nowy potencjal\szkolenie\level 3\2\TplExample\TplExample\obj\Debug\TplExample.Properties.Resources.resources
+D:\praca\nowy potencjal\szkolenie\level 3\2\TplExample\TplExample\obj\Debug\TplExample.csproj.GenerateResource.Cache
+D:\praca\nowy potencjal\szkolenie\level 3\2\TplExample\TplExample\obj\Debug\TplExample.exe
+D:\praca\nowy potencjal\szkolenie\level 3\2\TplExample\TplExample\obj\Debug\TplExample.pdb

@@ -1,0 +1,4 @@
+D:\praca\nowy potencjal\szkolenie\level 3\3\dllExample\dllExample\bin\Debug\dllExample.dll
+D:\praca\nowy potencjal\szkolenie\level 3\3\dllExample\dllExample\bin\Debug\dllExample.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\3\dllExample\dllExample\obj\Debug\dllExample.dll
+D:\praca\nowy potencjal\szkolenie\level 3\3\dllExample\dllExample\obj\Debug\dllExample.pdb

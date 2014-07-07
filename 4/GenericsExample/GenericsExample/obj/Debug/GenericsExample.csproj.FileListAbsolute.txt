@@ -1,0 +1,6 @@
+D:\praca\nowy potencjal\szkolenie\level 3\4\GenericsExample\GenericsExample\bin\Debug\GenericsExample.exe.config
+D:\praca\nowy potencjal\szkolenie\level 3\4\GenericsExample\GenericsExample\bin\Debug\GenericsExample.exe
+D:\praca\nowy potencjal\szkolenie\level 3\4\GenericsExample\GenericsExample\bin\Debug\GenericsExample.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\4\GenericsExample\GenericsExample\obj\Debug\GenericsExample.exe
+D:\praca\nowy potencjal\szkolenie\level 3\4\GenericsExample\GenericsExample\obj\Debug\GenericsExample.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\4\GenericsExample\GenericsExample\obj\Debug\GenericsExample.csprojResolveAssemblyReference.cache

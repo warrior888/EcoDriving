@@ -1,0 +1,10 @@
+D:\praca\nowy potencjal\szkolenie\level 3\4\HowCanIGetThere\HowCanIGetThere\bin\Debug\HowCanIGetThere.exe.config
+D:\praca\nowy potencjal\szkolenie\level 3\4\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.csprojResolveAssemblyReference.cache
+D:\praca\nowy potencjal\szkolenie\level 3\4\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.Properties.Resources.resources
+D:\praca\nowy potencjal\szkolenie\level 3\4\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.csproj.GenerateResource.Cache
+D:\praca\nowy potencjal\szkolenie\level 3\4\HowCanIGetThere\HowCanIGetThere\bin\Debug\HowCanIGetThere.exe
+D:\praca\nowy potencjal\szkolenie\level 3\4\HowCanIGetThere\HowCanIGetThere\bin\Debug\HowCanIGetThere.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\4\HowCanIGetThere\HowCanIGetThere\bin\Debug\Graph.dll
+D:\praca\nowy potencjal\szkolenie\level 3\4\HowCanIGetThere\HowCanIGetThere\bin\Debug\Graph.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\4\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.exe
+D:\praca\nowy potencjal\szkolenie\level 3\4\HowCanIGetThere\HowCanIGetThere\obj\Debug\HowCanIGetThere.pdb

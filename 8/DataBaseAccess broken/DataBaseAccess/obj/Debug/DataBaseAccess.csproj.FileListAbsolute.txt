@@ -1,0 +1,12 @@
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DataBaseAccess\DataBaseAccess\obj\Debug\GhostRider.DataBaseAccess.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DataBaseAccess\DataBaseAccess\bin\Debug\GhostRider.DataBaseAccess.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DataBaseAccess\DataBaseAccess\bin\Debug\GhostRider.DataBaseAccess.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DataBaseAccess\DataBaseAccess\bin\Debug\Mono.Security.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DataBaseAccess\DataBaseAccess\bin\Debug\Npgsql.xml
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DataBaseAccess\DataBaseAccess\bin\Debug\de\Npgsql.resources.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DataBaseAccess\DataBaseAccess\bin\Debug\es\Npgsql.resources.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DataBaseAccess\DataBaseAccess\bin\Debug\fi\Npgsql.resources.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DataBaseAccess\DataBaseAccess\bin\Debug\fr\Npgsql.resources.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DataBaseAccess\DataBaseAccess\bin\Debug\ja\Npgsql.resources.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DataBaseAccess\DataBaseAccess\obj\Debug\GhostRider.DataBaseAccess.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DataBaseAccess\DataBaseAccess\obj\Debug\DataBaseAccess.csprojResolveAssemblyReference.cache

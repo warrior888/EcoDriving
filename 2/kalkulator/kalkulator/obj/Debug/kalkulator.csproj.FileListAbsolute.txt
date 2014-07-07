@@ -1,0 +1,9 @@
+D:\praca\nowy potencjal\szkolenie\level 3\2\kalkulator\kalkulator\bin\Debug\kalkulator.exe.config
+D:\praca\nowy potencjal\szkolenie\level 3\2\kalkulator\kalkulator\bin\Debug\kalkulator.exe
+D:\praca\nowy potencjal\szkolenie\level 3\2\kalkulator\kalkulator\bin\Debug\kalkulator.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\2\kalkulator\kalkulator\obj\Debug\kalkulator.csprojResolveAssemblyReference.cache
+D:\praca\nowy potencjal\szkolenie\level 3\2\kalkulator\kalkulator\obj\Debug\kalkulator.Form1.resources
+D:\praca\nowy potencjal\szkolenie\level 3\2\kalkulator\kalkulator\obj\Debug\kalkulator.Properties.Resources.resources
+D:\praca\nowy potencjal\szkolenie\level 3\2\kalkulator\kalkulator\obj\Debug\kalkulator.csproj.GenerateResource.Cache
+D:\praca\nowy potencjal\szkolenie\level 3\2\kalkulator\kalkulator\obj\Debug\kalkulator.exe
+D:\praca\nowy potencjal\szkolenie\level 3\2\kalkulator\kalkulator\obj\Debug\kalkulator.pdb

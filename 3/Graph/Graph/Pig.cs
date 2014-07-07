@@ -1,0 +1,7 @@
+﻿
+namespace Graph
+{
+    class Pig
+    {
+    }
+}

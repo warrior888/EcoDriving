@@ -1,0 +1,9 @@
+C:\Share\Docs\OBD2\ODB2Solution\OBDIIEngineLibrary\bin\Debug\OBDIIEngineLibrary.dll
+C:\Share\Docs\OBD2\ODB2Solution\OBDIIEngineLibrary\bin\Debug\OBDIIEngineLibrary.pdb
+C:\Share\Docs\OBD2\ODB2Solution\OBDIIEngineLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Share\Docs\OBD2\ODB2Solution\OBDIIEngineLibrary\obj\Debug\OBDIIEngineLibrary.dll
+C:\Share\Docs\OBD2\ODB2Solution\OBDIIEngineLibrary\obj\Debug\OBDIIEngineLibrary.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\OBDIIEngineLibrary\bin\Debug\OBDIIEngineLibrary.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\OBDIIEngineLibrary\bin\Debug\OBDIIEngineLibrary.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\OBDIIEngineLibrary\obj\Debug\OBDIIEngineLibrary.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\ODB2Solution\ODB2Solution\OBDIIEngineLibrary\obj\Debug\OBDIIEngineLibrary.pdb

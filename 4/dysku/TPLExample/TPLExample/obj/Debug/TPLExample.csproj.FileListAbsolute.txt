@@ -1,0 +1,4 @@
+\\WARRIOR\szkolenie\level 3\4\dysku\TPLExample\TPLExample\bin\Debug\TPLExample.exe
+\\WARRIOR\szkolenie\level 3\4\dysku\TPLExample\TPLExample\bin\Debug\TPLExample.pdb
+\\WARRIOR\szkolenie\level 3\4\dysku\TPLExample\TPLExample\obj\Debug\TPLExample.exe
+\\WARRIOR\szkolenie\level 3\4\dysku\TPLExample\TPLExample\obj\Debug\TPLExample.pdb

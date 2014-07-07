@@ -1,0 +1,4 @@
+D:\praca\nowy potencjal\szkolenie\level 3\InterfaceExtension\InterfaceExtension\InterfaceExtension\bin\Debug\InterfaceExtension.exe
+D:\praca\nowy potencjal\szkolenie\level 3\InterfaceExtension\InterfaceExtension\InterfaceExtension\bin\Debug\InterfaceExtension.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\InterfaceExtension\InterfaceExtension\InterfaceExtension\obj\x86\Debug\InterfaceExtension.exe
+D:\praca\nowy potencjal\szkolenie\level 3\InterfaceExtension\InterfaceExtension\InterfaceExtension\obj\x86\Debug\InterfaceExtension.pdb

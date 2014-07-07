@@ -1,0 +1,8 @@
+D:\praca\nowy potencjal\szkolenie\level 3\4\TPLExample\TPLExample\bin\Debug\TPLExample.exe.config
+D:\praca\nowy potencjal\szkolenie\level 3\4\TPLExample\TPLExample\bin\Debug\TPLExample.exe
+D:\praca\nowy potencjal\szkolenie\level 3\4\TPLExample\TPLExample\bin\Debug\TPLExample.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\4\TPLExample\TPLExample\obj\Debug\TPLExample.exe
+D:\praca\nowy potencjal\szkolenie\level 3\4\TPLExample\TPLExample\obj\Debug\TPLExample.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\4\TPLExample\TPLExample\bin\Debug\TPLExample.exe.config
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\4\TPLExample\TPLExample\obj\Debug\TPLExample.exe
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\4\TPLExample\TPLExample\obj\Debug\TPLExample.pdb

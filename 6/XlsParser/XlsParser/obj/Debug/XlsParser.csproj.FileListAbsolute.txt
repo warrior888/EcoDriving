@@ -1,0 +1,16 @@
+D:\praca\nowy potencjal\szkolenie\Dropbox\level 3\6\XlsParser\XlsParser\bin\Debug\XlsParser.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\level 3\6\XlsParser\XlsParser\bin\Debug\XlsParser.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\level 3\6\XlsParser\XlsParser\bin\Debug\LinqToExcel.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\level 3\6\XlsParser\XlsParser\bin\Debug\Remotion.Data.Linq.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\level 3\6\XlsParser\XlsParser\bin\Debug\log4net.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\level 3\6\XlsParser\XlsParser\bin\Debug\LinqToExcel.xml
+D:\praca\nowy potencjal\szkolenie\Dropbox\level 3\6\XlsParser\XlsParser\obj\Debug\XlsParser.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\level 3\6\XlsParser\XlsParser\obj\Debug\XlsParser.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\level 3\6\XlsParser\XlsParser\bin\Debug\Remotion.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\level 3\6\XlsParser\XlsParser\bin\Debug\Remotion.Interfaces.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\level 3\6\XlsParser\XlsParser\obj\Debug\XlsParser.csprojResolveAssemblyReference.cache
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\6\XlsParser\XlsParser\bin\Debug\XlsParser.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\6\XlsParser\XlsParser\bin\Debug\XlsParser.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\6\XlsParser\XlsParser\bin\Debug\LinqToExcel.xml
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\6\XlsParser\XlsParser\obj\Debug\XlsParser.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\6\XlsParser\XlsParser\obj\Debug\XlsParser.pdb

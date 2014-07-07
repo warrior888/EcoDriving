@@ -1,0 +1,17 @@
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\bin\Debug\obdLibWrapper.exe
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\bin\Debug\obdLibWrapper.pdb
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Debug\obdLibWrapper.Form1.resources
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Debug\obdLibWrapper.Properties.Resources.resources
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Debug\obdLibWrapper.exe
+C:\Documents and Settings\Michael\my documents\visual studio 2010\Projects\obdLibWrapper\obdLibWrapper\obj\x86\Debug\obdLibWrapper.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\OBD2WrapperSrc\obdLibWrapper\obdLibWrapper\obj\x86\Debug\obdLibWrapper.exe
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\OBD2WrapperSrc\obdLibWrapper\obdLibWrapper\obj\x86\Debug\obdLibWrapper.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\OBD2WrapperSrc\obdLibWrapper\obdLibWrapper\bin\Debug\obdLibWrapper.exe
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\OBD2WrapperSrc\obdLibWrapper\obdLibWrapper\bin\Debug\obdLibWrapper.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\OBD2WrapperSrc\obdLibWrapper\obdLibWrapper\obj\x86\Debug\obdLibWrapper.csprojResolveAssemblyReference.cache
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\OBD2WrapperSrc\obdLibWrapper\obdLibWrapper\obj\x86\Debug\obdLibWrapper.Form1.resources
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\OBD2WrapperSrc\obdLibWrapper\obdLibWrapper\obj\x86\Debug\obdLibWrapper.Properties.Resources.resources
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\9\ecodriving\OBD2WrapperSrc\obdLibWrapper\obdLibWrapper\obj\x86\Debug\obdLibWrapper.csproj.GenerateResource.Cache

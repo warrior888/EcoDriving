@@ -1,0 +1,25 @@
+D:\praca\nowy potencjal\szkolenie\level 3\3\Graph\Graph\bin\Debug\Graph.dll
+D:\praca\nowy potencjal\szkolenie\level 3\3\Graph\Graph\bin\Debug\Graph.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\3\Graph\Graph\obj\Debug\Graph.dll
+D:\praca\nowy potencjal\szkolenie\level 3\3\Graph\Graph\obj\Debug\Graph.pdb
+D:\praca\nowy potencjal\szkolenie\level 3\3\Graph\Graph\bin\Debug\mscorlib.dll
+D:\praca\nowy potencjal\szkolenie\level 3\3\Graph\Graph\bin\Debug\pl\mscorlib.resources.dll
+D:\praca\nowy potencjal\szkolenie\level 3\3\Graph\Graph\bin\Debug\normidna.nlp
+D:\praca\nowy potencjal\szkolenie\level 3\3\Graph\Graph\bin\Debug\normnfc.nlp
+D:\praca\nowy potencjal\szkolenie\level 3\3\Graph\Graph\bin\Debug\normnfd.nlp
+D:\praca\nowy potencjal\szkolenie\level 3\3\Graph\Graph\bin\Debug\normnfkc.nlp
+D:\praca\nowy potencjal\szkolenie\level 3\3\Graph\Graph\bin\Debug\normnfkd.nlp
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\bin\Debug\Graph.dll
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\bin\Debug\Graph.pdb
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\obj\Debug\Graph.dll
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\obj\Debug\Graph.pdb
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\bin\Debug\mscorlib.dll
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\bin\Debug\pl\mscorlib.resources.dll
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\bin\Debug\normidna.nlp
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\bin\Debug\normnfc.nlp
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\bin\Debug\normnfd.nlp
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\bin\Debug\normnfkc.nlp
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\bin\Debug\normnfkd.nlp
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\bin\Debug\dllExample.dll
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\bin\Debug\dllExample.pdb
+\\WARRIOR\szkolenie\level 3\3\Graph\Graph\obj\Debug\Graph.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+Zrodlo, 1234, 6789, Dominika, GhostRider;
+Zrodelko, 3333, 77777, Koziu, Binol;
+Drzewo, 8888, 1111, Dysku, Radek;
+Wodka, 777332, 023393, MG8, Sito;
+Jedzenie, 4736473, 938493, Radek, Domi;
