@@ -41,5 +41,13 @@ namespace EcoDriving.Application
 
             return model.GetData(sqlQueryCommand);
         }
+
+        public List<PeopleModel> GetPerson(int id)
+        {
+            PeopleModel model = new PeopleModel();
+            string sqlQueryCommand = string.Format("select * from {0} where {1} = '{2}';", model.TableName, PeopleModel.idColumn, id);
+
+            return model.GetData(sqlQueryCommand);
+        }
     }
 }

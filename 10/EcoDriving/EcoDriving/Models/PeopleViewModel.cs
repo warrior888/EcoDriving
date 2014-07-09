@@ -9,6 +9,8 @@ namespace EcoDriving.Models
     {
         public int Id { get; set; }
 
+        public int DriveNumber { get; set; }
+
         [Display(Name = "UserName", ResourceType = typeof(Resources.Translations))]
         public string Name { get; set; }
 
@@ -24,6 +26,15 @@ namespace EcoDriving.Models
         public string ShowGraph { get; set; }
 
         public string Draw { get; set; }
+
+        public string Date { get; set; }
+
+        public string Description { get; set; }
+
+        public string Analyze { get; set; }
+
+        [Display(Name = "FileLabel", ResourceType = typeof(Resources.Translations))]
+        public string FileLabel { get; set; }
 
         public List<PeopleModel> SearchResults { get; set; }
 

@@ -4,18 +4,18 @@ using System.Linq;
 using System.Web;
 using EcoDriving.Application.Model;
 using LinqToExcel;
-using XlsParser.Model;
 using XlsParser.Parsing;
+
 
 namespace EcoDriving.Application.Parsing
 {
     public class XlsxEcoDriveParsing : DataMaperBase<Dictionary<string, EcoDriveModel>, ExcelQueryFactory, ExcelQueryFactory>
     {
-        public XlsxEcoDriveParsing(int userId)
+        public XlsxEcoDriveParsing(int userId, int driveNumber)
         {
             this.userId = userId;
             // TO DO calculate drive Number somehow :) from DB 
-            this.driveNum = 1;
+            this.driveNum = driveNumber;
         }
 
         private int userId { get; set; }      
@@ -46,6 +46,8 @@ namespace EcoDriving.Application.Parsing
             var drive = queryFactory.Worksheet<EcoDriveModel>(workSheet).Select(x => (EcoDriveModel)x);
             var resoult = new Dictionary<string, EcoDriveModel>();
 
+            //driveNum = getDriveNumber(drive);
+
             int i = 1;
             foreach (EcoDriveModel item in drive)
             {
@@ -64,6 +66,8 @@ namespace EcoDriving.Application.Parsing
 
             return resoult;
         }
+
+    
 
         public override Dictionary<string, EcoDriveModel> getAdequateParser(ExcelQueryFactory queryFactory)
         {

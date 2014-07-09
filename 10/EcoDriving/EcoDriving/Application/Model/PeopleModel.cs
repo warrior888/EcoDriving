@@ -34,6 +34,12 @@ namespace EcoDriving.Application.Model
             }
         }
 
+        public string FullName
+        {
+            get { return Name + " " + Surname; }
+            
+        }
+
         public string Name
         {
             get { return this.dataBaseTable[nameColumn].FieldValue.ToString(); }

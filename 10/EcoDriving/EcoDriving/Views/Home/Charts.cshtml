@@ -14,50 +14,70 @@
 
 <h2>Charts</h2>
 
-
-@using (Html.BeginForm("Charts", "Home", FormMethod.Post))
-{
-    <input type="file" name="RideFile">
-    
-    <input type="submit" class="" name="Draw" value="@Translations.Draw" />
-
-    }
-
-@if (!string.IsNullOrEmpty(Model.Draw))
-{
-    <div id="chartdiv" style="width: 640px; height: 400px;"></div>
-    
+@section scripts { 
     <script type="text/javascript">
+        $(function () {
+            $.getJSON("/Home/Coursants/List", function (data) {
+                var items = "<option>---------------------</option>";
+                $.each(data, function (i, coursant) {
+                    items += "<option value='" + coursant.Value + "'>" + coursant.Text + "</option>";
+                });
+                $("#Coursants").html(items);
+            });
 
-        var chartData = [
-            @{
-    foreach (var item in @Model.EcoDrivingData)
-    {
-                    @Html.Raw(" { time: " + (int.Parse(item.FrameTime) / 1000) + ", rpm: " + item.Rpm + " }, ")
-    }
-            }
-        ];
+            $("#Coursants").change(function () {
 
+                $.getJSON("/Home/Drives/List/" + $("#Coursants > option:selected").attr("value"), function (data) {
+                    var items = "<option>---------------------</option>";
+                    $.each(data, function (i, drive) {
+                        items += "<option value='" + drive.Value + "'>" + drive.Text + "</option>";
+                    });
+                    $("#Drives").html(items);
+                });
+            });
+
+            $("#Drives").change(function () {
+
+                $.getJSON("/Home/Drives/Selected/" + $("#Coursants > option:selected").attr("value") +"/" + $("#Drives > option:selected").attr("value"), function (data) {
+                    var items = "<option>---------------------</option>";
+                    $.each(data, function (i, drive) {
+                        items += "<option value='" + drive.Value + "'>" + drive.Text + "</option>";
+                    });
+                    $("#Drives").html(items);
+                });
+            });
+        });      
     </script>
-    
-    <script type="text/javascript">
-        AmCharts.ready(function () {
-            // chart code will go here
-            // console.log(chartData, 'Dziala !!');
-            // http://www.amcharts.com/tutorials/your-first-chart-with-amcharts/
+    <script>$.post('Dupa', { id: '1', driveNum: '2' }, function (data) {
 
-            var chart = new AmCharts.AmSerialChart();
-            chart.dataProvider = chartData;
-            chart.categoryField = "time";
-
-            var graph = new AmCharts.AmGraph();
-            graph.valueField = "rpm";
-            graph.type = "column";
-            chart.addGraph(graph);
-
-            chart.write('chartdiv');
-
-        });
-</script>
+});</script>
 }
+
+
+    @using (Html.BeginForm())
+{
+    <label for="Coursants">Wybierz Kursanta</label>
+    <select id="Coursants" name="Coursants" class="ui-selectable"></select>
+    <br /><br />
+    <label for="Drives">Wybierz Przejazd</label>
+    <select id="Drives" name="Drives" class="ui-selectable"></select>
+    <br /><br />
+}
+
+    @using (Html.BeginForm("Charts", "Home", FormMethod.Post))
+{
     
+    <input type="submit" class="ui-button" name="Analyze" value="@Translations.Analyze" />
+
+    }
+    @{
+    <script>
+    </script>
+}
+
+@*@if (!string.IsNullOrEmpty(Model.Analyze))
+{
+    Html.ActionLink(Translations.Choose, "PeopleChoose", new {id = @Model.Id, driveNum = Model.DriveNumber});
+}*@
+
+

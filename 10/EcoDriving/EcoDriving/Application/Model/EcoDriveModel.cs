@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Providers.Entities;
 using GhostRider.DatabaseAccess.DAL;
 using GhostRider.DatabaseAccess.DAL.Fields;
 using Npgsql;
@@ -141,6 +142,8 @@ namespace EcoDriving.Application.Model
             result.Distance = (int)reader[distanceColumn];
             result.CurrentFuelConsumption = reader[currentFuelConsumptionColumn].ToString();
             result.EnginePower = (int)reader[enginePowerColumn];
+            result.DriveNum = (int) reader[driveNumColumn];
+            result.UserId = (int) reader[userIdColumn];
 
             return result;
         }

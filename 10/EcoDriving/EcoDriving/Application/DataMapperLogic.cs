@@ -12,9 +12,9 @@ namespace EcoDriving.Application
 {
     public class DataMapperLogic
     {
-        public Dictionary<string, EcoDriveModel> GetParsedData(string fileName, int userId)
+        public Dictionary<string, EcoDriveModel> GetParsedData(string fileName, int userId, int driveNumber)
         {
-            var parser = new XlsxEcoDriveParsing(userId);
+            var parser = new XlsxEcoDriveParsing(userId, driveNumber);
 
             var result = parser.getModelData(new ExcelQueryFactory(fileName));
 

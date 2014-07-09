@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using EcoDriving.Application;
 using EcoDriving.Application.Model;
 using EcoDriving.Models;
+using Microsoft.Ajax.Utilities;
+using WebGrease.Css;
 
 namespace EcoDriving.Controllers
 {
@@ -20,17 +23,70 @@ namespace EcoDriving.Controllers
             return View();
         }
 
+        public ActionResult SelectedDrive(int id, int driveNum)
+        {
+
+
+            return RedirectToAction("Charts");
+        }
+
         public ActionResult Charts(PeopleViewModel model)
         {
-            if (!string.IsNullOrEmpty(model.Draw))
+            if (!string.IsNullOrEmpty(model.Analyze))
             {
-                EcoDriveModel ecoModel = new EcoDriveModel();
-                var results =
-                    ecoModel.GetData(string.Format("select * from EcoDriving where userId = 1 and driveNum =1"));
-                    //driver i drive tutaj na sztywno lecz zakladam ze sa juz wybrane globalnie na poczatku
-                model.EcoDrivingData = results;
+                var pupa = model.Id;
+                var pupa2 = model.DriveNumber;
             }
             return View(model);
+        }
+
+        public ActionResult CoursantList()
+        {
+
+            PeopleLogic logic = new PeopleLogic();
+            var result = logic.GetPeopleData("", "");
+
+
+            if (HttpContext.Request.IsAjaxRequest())
+            {
+                return Json(new SelectList(
+                            result,
+                            "Id",
+                            "FullName"), JsonRequestBehavior.AllowGet
+                            );
+            }
+
+            return RedirectToAction("Charts");
+        }
+
+        public ActionResult DriveList(int id)
+        {
+
+            EcoDriveModel ecoModel = new EcoDriveModel();
+            List<EcoDriveModel> results =
+                ecoModel.GetData(string.Format("select * from EcoDriving where userId = {0}", id));
+            List<EcoDriveModel> drives = new List<EcoDriveModel>();
+            int temp = 0;
+            foreach (var item in results)
+            {
+                if (temp!=item.DriveNum)
+                {
+                    drives.Add(item);
+                    temp++;
+                }
+            }
+                        // TASK! Dopisać logike ktora stworzy liste przejazdow a nie ilość (bo mogą być luki jak sie usunie) I użyć SELECT MAX jakiegoś a nie liczyć TO!
+
+            if (HttpContext.Request.IsAjaxRequest())
+            {
+                return Json(new SelectList(
+                    drives,
+                    "driveNum",
+                    "driveNum"), JsonRequestBehavior.AllowGet
+                    );
+            }
+
+            return RedirectToAction("Charts");
         }
         
 
@@ -62,12 +118,46 @@ namespace EcoDriving.Controllers
             // wrzucenie pliku do bd
             // na stronie widoku dodanie przycisku do amchartow
             // generuj wykres
+            
             if (!string.IsNullOrEmpty(model.Confirm))
             {
-                // sciezka do pliku bedzie przeslana do rideFile z people model
-                string path = "D:\\praca\\nowy potencjal\\szkolenie\\Dropbox\\Szkolenie\\level 3\\10\\najnowszy.xlsx";
-                DataMapperLogic logic = new DataMapperLogic();
-                var result = logic.GetParsedData(path, model.Id);
+                if (Request.Files.Count > 0)
+                {
+                    var file = Request.Files[0];
+                    string path = "C:\\Programowanie\\level 3\\10\\";
+
+                    if (file != null && file.ContentLength > 0)
+                    {
+                        var fileName = Path.GetFileName(file.FileName);
+                        path += fileName;
+                        //path = "C:\\Programowanie\\level 3\\10\\najnowszy.xlsx";
+                        
+
+                        EcoDriveModel ecoModel = new EcoDriveModel();
+                        List<EcoDriveModel> results =
+                            ecoModel.GetData(string.Format("select * from EcoDriving where userId = {0}", model.Id));
+                        // and drive number = ...
+                        int driveNumber = 0;
+                        foreach (var item in results)
+                        {
+                            if (item.DriveNum >= driveNumber)
+                                driveNumber = item.DriveNum;
+                        }
+                        driveNumber += 1;
+
+                        DataMapperLogic logic = new DataMapperLogic();
+                        var result = logic.GetParsedData(path, model.Id, driveNumber);
+                        model.FileLabel = "Pomyślnie dodano przejazd do bazy.";
+                    }
+                    else
+                    {
+                        model.FileLabel = "Błąd - wybierz plik";
+                    }
+                }
+                else
+                {
+                    model.FileLabel = "Błąd - wybierz plik";
+                }
             }
 
             if (!string.IsNullOrEmpty(model.ShowGraph))
@@ -77,6 +167,14 @@ namespace EcoDriving.Controllers
 
                 model.EcoDrivingData = results;
             }
+
+            PeopleLogic person = new PeopleLogic();
+            var resultPerson = person.GetPerson(model.Id);
+
+            model.Name = resultPerson[0].Name;
+            model.Surname = resultPerson[0].Surname;
+
+            
 
             return View(model);
         }

@@ -2,7 +2,7 @@
 @model EcoDriving.Models.PeopleViewModel
 
 @{
-    ViewBag.Title = "PeopleChoose";
+    ViewBag.Title = "Wybrano kursanta";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -12,17 +12,43 @@
    <script type="text/javascript" src="@Url.Content("/amcharts/amcharts/serial.js")"></script>
 }
 
-<h2>PeopleChoose</h2>
+<h2>@String.Format("Wybrano kustanta: {0} {1}", Model.Name, Model.Surname)</h2>
+
+<h3>Dodaj przejazd dla kursanta</h3>
+
 
 @using (Html.BeginForm("PeopleChoose", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
-    <input type="file" name="RideFile">
+    <div>
+        @Html.LabelFor(model => model.Date)
+        @Html.TextBoxFor(model => model.Date)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.Description)
+        @Html.TextBoxFor(model => model.Description)
+    </div>
     
-    <input type="submit" class="" name="Confirm" value="@Translations.Confirm" />
+    <input type="file" class="ui-button" name="RideFile">
     
-    <input type="submit" class="" name="ShowGraph" value="@Translations.ShowGraph" />
+    <input type="submit" class="ui-button" name="Confirm" value="@Translations.Confirm" />
+    
+    <input type="submit" class="ui-button" name="ShowGraph" value="@Translations.ShowGraph" />
 
+}
+<br/>
+@*@if (!string.IsNullOrEmpty(Model.Confirm))
+{
+    if (!string.IsNullOrEmpty(Model.RideFile))
+     {
+         Model.FileLabel = "Dodano przejazd do bazy.";
+         @Html.LabelFor(model => model.FileLabel)
+     }
+    if(string.IsNullOrEmpty(Model.RideFile))
+    {
+        Model.FileLabel = "Wybierz najpierw plik.";
+         @Html.LabelFor(model => model.FileLabel)
     }
+}*@
 
 @if (!string.IsNullOrEmpty(Model.ShowGraph))
 {
@@ -34,7 +60,7 @@
             @{
     foreach (var item in @Model.EcoDrivingData)
     {
-                    @Html.Raw(" { speed: " + item.Speed + ", order: " + item.Id + " }, ")
+                    @Html.Raw(" { speed: " + item.Speed + ", order: " + item.FrameTime + " }, ")
     }
             }
         ];
@@ -53,7 +79,11 @@
 
             var graph = new AmCharts.AmGraph();
             graph.valueField = "speed";
-            graph.type = "column";
+
+            chart.angle = 30;
+            chart.depth3D = 15;
+            graph.type = "line";
+            graph.fillAlphas = 0.3;
             chart.addGraph(graph);
 
             chart.write('chartdiv');
