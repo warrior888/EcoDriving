@@ -25,18 +25,20 @@ namespace EcoDriving.Controllers
 
         public ActionResult SelectedDrive(int id, int driveNum)
         {
+            PeopleViewModel model = new PeopleViewModel();
+            model.Id = id;
+            model.DriveNumber = driveNum;
 
-
-            return RedirectToAction("Charts");
+            return RedirectToAction("Charts","Home",model);
         }
 
-        public ActionResult Charts(PeopleViewModel model)
+        public ActionResult Charts(PeopleViewModel xModel)
         {
-            if (!string.IsNullOrEmpty(model.Analyze))
-            {
-                var pupa = model.Id;
-                var pupa2 = model.DriveNumber;
-            }
+
+            PeopleViewModel model = new PeopleViewModel();
+            model.Id = xModel.Id;
+            model.DriveNumber = xModel.DriveNumber;
+            model.Analyze = "go";
             return View(model);
         }
 
@@ -144,6 +146,7 @@ namespace EcoDriving.Controllers
                                 driveNumber = item.DriveNum;
                         }
                         driveNumber += 1;
+                        model.DriveNumber = driveNumber;
 
                         DataMapperLogic logic = new DataMapperLogic();
                         var result = logic.GetParsedData(path, model.Id, driveNumber);
@@ -163,7 +166,7 @@ namespace EcoDriving.Controllers
             if (!string.IsNullOrEmpty(model.ShowGraph))
             {
                 EcoDriveModel ecoModel = new EcoDriveModel();
-                var results = ecoModel.GetData(string.Format("select * from EcoDriving where userId = {0}", model.Id)); // and drive number = ...
+                var results = ecoModel.GetData(string.Format("select * from EcoDriving where userId = {0} and driveNum = {1};", model.Id, model.DriveNumber)); // and drive number = ...
 
                 model.EcoDrivingData = results;
             }

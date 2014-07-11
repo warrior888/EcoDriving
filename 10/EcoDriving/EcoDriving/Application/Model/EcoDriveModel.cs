@@ -11,6 +11,7 @@ namespace EcoDriving.Application.Model
 {
     public class EcoDriveModel : DbTable<EcoDriveModel, DbField>
     {
+
         protected override string tableName
         {
             get { return "EcoDriving"; }
@@ -18,6 +19,7 @@ namespace EcoDriving.Application.Model
 
         public const string idColumn = "frameNumber";
         public const string frameTimeColumn = "frameTime";
+        public const string frameTimeDeltaColumn = "frameTimeDelta";
         public const string rpmColumn = "rpm";
         public const string speedColumn = "speed";
         public const string fuelConsumptionColumn = "fuelConsumption";
@@ -67,6 +69,16 @@ namespace EcoDriving.Application.Model
             }
         }
 
+        public string FrameTimeDelta
+        {
+            get { return this.dataBaseTable[frameTimeDeltaColumn].FieldValue.ToString(); }
+
+            set // wartoscia jest slowo kluczowe value
+            {
+                addDBfieldEntry(frameTimeDeltaColumn, value, new DbInsertField());
+            }
+        }
+
         public int Rpm
         {
             get
@@ -100,9 +112,9 @@ namespace EcoDriving.Application.Model
             }
         }
 
-        public int Distance
+        public float  Distance
         {
-            get { return (int)this.dataBaseTable[distanceColumn].FieldValue; }
+            get { return (float)this.dataBaseTable[distanceColumn].FieldValue; }
 
             set // wartoscia jest slowo kluczowe value
             {
@@ -133,13 +145,33 @@ namespace EcoDriving.Application.Model
         protected override EcoDriveModel readRow(NpgsqlDataReader reader)
         {
             var result = new EcoDriveModel();
+            //int distaceColumnId = 1;
+            //try
+            //{
+            //    for (int i = 0; i < 20; i++)
+            //    {
+            //        if (reader.GetName(i) == distanceColumn)
+            //        {
+            //            distaceColumnId = i;
+            //            break;
+            //        }
+            //    }
+            //}
+            //catch (Exception)
+            //{
+                
+            //    throw;
+            //}
+            float x = 0;
 
             result.Id = (int)reader[idColumn];
             result.FrameTime = reader[frameTimeColumn].ToString();
+            result.FrameTimeDelta = reader[frameTimeDeltaColumn].ToString();
             result.Rpm = (int)reader[rpmColumn];
             result.Speed = (int)reader[speedColumn];
             result.FuelConsumption = reader[fuelConsumptionColumn].ToString();
-            result.Distance = (int)reader[distanceColumn];
+            //result.Distance = (float)reader.GetFloat(distaceColumnId); // SPRAWDZIC BO MOZE GENEROWAC ERROR
+            result.Distance = float.Parse(reader[distanceColumn].ToString(), System.Globalization.CultureInfo.InvariantCulture);
             result.CurrentFuelConsumption = reader[currentFuelConsumptionColumn].ToString();
             result.EnginePower = (int)reader[enginePowerColumn];
             result.DriveNum = (int) reader[driveNumColumn];

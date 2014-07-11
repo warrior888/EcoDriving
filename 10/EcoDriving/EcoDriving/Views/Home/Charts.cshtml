@@ -36,16 +36,19 @@
                 });
             });
 
-            $("#Drives").change(function () {
+            //$("#Drives").change(function () {
 
-                $.getJSON("/Home/Drives/Selected/" + $("#Coursants > option:selected").attr("value") +"/" + $("#Drives > option:selected").attr("value"), function (data) {
-                    var items = "<option>---------------------</option>";
-                    $.each(data, function (i, drive) {
-                        items += "<option value='" + drive.Value + "'>" + drive.Text + "</option>";
-                    });
-                    $("#Drives").html(items);
-                });
+            //    $.getJSON("/Home/Drives/Selected/" + $("#Coursants > option:selected").attr("value") +"/" + $("#Drives > option:selected").attr("value"), function (data) {
+            //        var items = "<option>---------------------</option>";
+            //        $.each(data, function (i, drive) {
+            //            items += "<option value='" + drive.Value + "'>" + drive.Text + "</option>";
+            //        });
+            //    });
+            //});
+            $('#Analyze').click(function (e) {
+                location.href = "/Analyze/Index/?id="+ $("#Coursants > option:selected").attr("value") +"&driveNum=" + $("#Drives > option:selected").attr("value");
             });
+
         });      
     </script>
     <script>$.post('Dupa', { id: '1', driveNum: '2' }, function (data) {
@@ -64,20 +67,14 @@
     <br /><br />
 }
 
-    @using (Html.BeginForm("Charts", "Home", FormMethod.Post))
+    @using (Html.BeginForm("ChartsButton", "Home", FormMethod.Post))
 {
     
-    <input type="submit" class="ui-button" name="Analyze" value="@Translations.Analyze" />
+    <input type="button" class="ui-button" name="Analyze" id="Analyze" value="@Translations.Analyze" />
 
     }
     @{
     <script>
     </script>
 }
-
-@*@if (!string.IsNullOrEmpty(Model.Analyze))
-{
-    Html.ActionLink(Translations.Choose, "PeopleChoose", new {id = @Model.Id, driveNum = Model.DriveNumber});
-}*@
-
 

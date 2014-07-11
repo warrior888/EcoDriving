@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using EcoDriving.Application.Model;
 using LinqToExcel;
+using Microsoft.Ajax.Utilities;
 using XlsParser.Parsing;
 
 
@@ -19,10 +20,11 @@ namespace EcoDriving.Application.Parsing
         }
 
         private int userId { get; set; }      
-        private int driveNum { get; set; }      
+        private int driveNum { get; set; }  
 
         private readonly string frameNumber = "Frame Number";
         private readonly string frameTime = "Frame Time (ms)";
+        private readonly string frameTimeDelta = "Frame Time (delta)";
         private readonly string rpm = "SAE#RPM";
         private readonly string speed = "SAE#VSS";
         private readonly string fuelConsumption = "CALC#TRIP#FUEL_USED";
@@ -36,6 +38,7 @@ namespace EcoDriving.Application.Parsing
         {
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.Id, frameNumber);
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.FrameTime, frameTime);
+            queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.FrameTimeDelta, frameTimeDelta);
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.Rpm, rpm);
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.Speed, speed);
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.FuelConsumption, fuelConsumption);
@@ -43,7 +46,7 @@ namespace EcoDriving.Application.Parsing
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.CurrentFuelConsumption, currentFuelConsumption);
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.EnginePower, enginePower);
 
-            var drive = queryFactory.Worksheet<EcoDriveModel>(workSheet).Select(x => (EcoDriveModel)x);
+            var drive = queryFactory.Worksheet<EcoDriveModel>(queryFactory.GetWorksheetNames().First()).Select(x => (EcoDriveModel)x);
             var resoult = new Dictionary<string, EcoDriveModel>();
 
             //driveNum = getDriveNumber(drive);

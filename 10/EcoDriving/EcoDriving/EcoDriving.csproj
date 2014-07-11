@@ -146,10 +146,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AnalyzeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AnalyzeModel.cs" />
     <Compile Include="Models\HomeModel.cs" />
     <Compile Include="Models\PeopleViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -259,6 +261,7 @@
     <Content Include="Views\Home\People.cshtml" />
     <Content Include="Views\Home\PeopleChoose.cshtml" />
     <Content Include="Views\Home\Charts.cshtml" />
+    <Content Include="Views\Analyze\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Application\DAL\" />
