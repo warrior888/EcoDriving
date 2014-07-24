@@ -12,7 +12,7 @@
    <script type="text/javascript" src="@Url.Content("/amcharts/amcharts/serial.js")"></script>
 }
 
-<h2>Charts</h2>
+<h3>W celu analizy przejazdu, wybierz kursanta i jego przejazd.</h3>
 
 @section scripts { 
     <script type="text/javascript">
@@ -36,41 +36,74 @@
                 });
             });
 
-            //$("#Drives").change(function () {
-
-            //    $.getJSON("/Home/Drives/Selected/" + $("#Coursants > option:selected").attr("value") +"/" + $("#Drives > option:selected").attr("value"), function (data) {
-            //        var items = "<option>---------------------</option>";
-            //        $.each(data, function (i, drive) {
-            //            items += "<option value='" + drive.Value + "'>" + drive.Text + "</option>";
-            //        });
-            //    });
-            //});
             $('#Analyze').click(function (e) {
-                location.href = "/Analyze/Index/?id="+ $("#Coursants > option:selected").attr("value") +"&driveNum=" + $("#Drives > option:selected").attr("value");
+                location.href = "/Analyze/SingleAnalyze/?id=" + $("#Coursants > option:selected").attr("value") + "&driveNum=" + $("#Drives > option:selected").attr("value");
             });
 
         });      
     </script>
-    <script>$.post('Dupa', { id: '1', driveNum: '2' }, function (data) {
+    
+    <script type="text/javascript">
+        $(function () {
+            $.getJSON("/Home/Coursants/List", function (data) {
+                var items = "<option>---------------------</option>";
+                $.each(data, function (i, coursant) {
+                    items += "<option value='" + coursant.Value + "'>" + coursant.Text + "</option>";
+                });
+                $("#Coursants2").html(items);
+            });
 
-});</script>
+            $("#Coursants2").change(function () {
+
+                $.getJSON("/Home/Drives/List/" + $("#Coursants2 > option:selected").attr("value"), function (data) {
+                    var items = "<option>---------------------</option>";
+                    $.each(data, function (i, drive) {
+                        items += "<option value='" + drive.Value + "'>" + drive.Text + "</option>";
+                    });
+                    $("#Drives2").html(items);
+                });
+            });
+
+            $('#Analyze2').click(function (e) {
+                location.href = "/Analyze/DoubleAnalyze/?id=" + $("#Coursants > option:selected").attr("value") + "&driveNum=" + $("#Drives > option:selected").attr("value") + "&id2=" + $("#Coursants2 > option:selected").attr("value") + "&driveNum2=" + $("#Drives2 > option:selected").attr("value");
+            });
+
+        });
+    </script>
+    
 }
 
 
     @using (Html.BeginForm())
-{
-    <label for="Coursants">Wybierz Kursanta</label>
-    <select id="Coursants" name="Coursants" class="ui-selectable"></select>
-    <br /><br />
-    <label for="Drives">Wybierz Przejazd</label>
-    <select id="Drives" name="Drives" class="ui-selectable"></select>
-    <br /><br />
-}
+    {
+        <div style="float: left">
+            <label for="Coursants">Wybierz Kursanta</label>
+            <select id="Coursants" name="Coursants" class="ui-selectable"></select>
+            <br /><br />
+            <label for="Drives">Wybierz Przejazd</label>
+            <select id="Drives" name="Drives" class="ui-selectable"></select>
+            <br /><br />
+            <input type="button" class="ui-button" name="Analyze" id="Analyze" value="@Translations.Analyze" />
+        </div>
+        
+        <div style="float: left">
+            <label for="Coursants2">Wybierz 2 Kursanta</label>
+            <select id="Coursants2" name="Coursants2" class="ui-selectable"></select>
+            <br /><br />
+            <label for="Drives2">Wybierz 2 Przejazd</label>
+            <select id="Drives2" name="Drives2" class="ui-selectable"></select>
+            <br /><br />
+            <input type="button" class="ui-button" name="Analyze2" id="Analyze2" value="@Translations.Analyze2" />
+        </div>   
+        
+    }
 
     @using (Html.BeginForm("ChartsButton", "Home", FormMethod.Post))
-{
-    
-    <input type="button" class="ui-button" name="Analyze" id="Analyze" value="@Translations.Analyze" />
+    {
+        <div style="clear: both">
+        
+        
+        </div>
 
     }
     @{
@@ -78,3 +111,4 @@
     </script>
 }
 
+   

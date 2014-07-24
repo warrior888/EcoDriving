@@ -11,12 +11,15 @@
 @using (Html.BeginForm("People", "Home", FormMethod.Post))
 {
     <h3>Dodaj kursanta:</h3>
-    <div>
-        @Html.LabelFor(model => model.Name)
-        @Html.TextBoxFor(model => model.Name)
-    </div>
-    <div>
+    <div style="float: left; font-size: 20px">
+        @Html.LabelFor(model => model.Name)   
+        @Html.Raw(" : ")  
+        <br/>
         @Html.LabelFor(model => model.Surname)
+        @Html.Raw(" : ")
+    </div>  <div style="float: left">
+        @Html.TextBoxFor(model => model.Name)
+        <br/>
         @Html.TextBoxFor(model => model.Surname)
     </div>
     
@@ -26,19 +29,22 @@
 @using (Html.BeginForm("People", "Home", FormMethod.Get))
 {
     <h3>Szukaj kursanta:</h3>
-    <div>
-        @Html.LabelFor(model => model.Name)
-        @Html.TextBoxFor(model => model.Name)
-        
+    <div style="float: left; font-size: 20px">
+        @Html.LabelFor(model => model.Name)   
+        @Html.Raw(" : ")  
         <br/>
-
         @Html.LabelFor(model => model.Surname)
+        @Html.Raw(" : ")
+    </div>  <div style="float: left">
+         @Html.TextBoxFor(model => model.Name)
+        <br/>
         @Html.TextBoxFor(model => model.Surname)
     </div>
     
     <input type="submit" class="ui-button" name="Search" value="@Translations.Search" />
 }
 
+<h3>
 <table>
     @if (Model.SearchResults != null)
     {
@@ -50,5 +56,6 @@
         }
     }
 </table>
+    </h3>
 
 

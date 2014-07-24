@@ -14,9 +14,15 @@ namespace EcoDriving
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                "Index",
+                "SingleAnalyze",
                 "Analyze/Drives/Selected/{id}/{driveNum}",
-                new { controller = "Analyze", action = "Index", id = 1, driveNum = 1}
+                new { controller = "Analyze", action = "SingleAnalyze", id = 1, driveNum = 1 }
+            );
+
+            routes.MapRoute(
+                "DoubleAnalyze",
+                "Analyze/Drives/Selected/{id}/{driveNum}/{id2}/{driveNum2}",
+                new { controller = "Analyze", action = "DoubleAnalyze", id = 1, driveNum = 1 , id2 = 1, driveNum2 = 1}
             );
 
             //routes.MapRoute(

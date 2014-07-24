@@ -137,6 +137,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application\Analyze.cs" />
     <Compile Include="Application\DataMapperLogic.cs" />
     <Compile Include="Application\Model\EcoDriveModel.cs" />
     <Compile Include="Application\Model\PeopleModel.cs" />
@@ -261,7 +262,9 @@
     <Content Include="Views\Home\People.cshtml" />
     <Content Include="Views\Home\PeopleChoose.cshtml" />
     <Content Include="Views\Home\Charts.cshtml" />
-    <Content Include="Views\Analyze\Index.cshtml" />
+    <Content Include="Views\Analyze\SingleAnalyze.cshtml" />
+    <Content Include="Views\Analyze\_Chart1.cshtml" />
+    <Content Include="Views\Analyze\DoubleAnalyze.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Application\DAL\" />

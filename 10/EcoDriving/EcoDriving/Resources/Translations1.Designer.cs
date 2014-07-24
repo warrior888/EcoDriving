@@ -70,6 +70,15 @@ namespace EcoDriving.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ANALIZA PORÓWNAWCZA.
+        /// </summary>
+        public static string Analyze2 {
+            get {
+                return ResourceManager.GetString("Analyze2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Wybierz.
         /// </summary>
         public static string Choose {

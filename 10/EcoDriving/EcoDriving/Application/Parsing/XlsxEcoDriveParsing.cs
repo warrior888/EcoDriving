@@ -45,7 +45,7 @@ namespace EcoDriving.Application.Parsing
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.Distance, distance);
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.CurrentFuelConsumption, currentFuelConsumption);
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.EnginePower, enginePower);
-
+            var dupa = queryFactory.GetWorksheetNames().First();
             var drive = queryFactory.Worksheet<EcoDriveModel>(queryFactory.GetWorksheetNames().First()).Select(x => (EcoDriveModel)x);
             var resoult = new Dictionary<string, EcoDriveModel>();
 

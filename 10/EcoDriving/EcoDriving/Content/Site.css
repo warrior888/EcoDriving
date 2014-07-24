@@ -173,6 +173,7 @@ ul#menu li.selected a
     line-height: 2em;
     background-color: #CC9;
     color: #034af3;
+    float: right;
 }
 
 .ui-selectable {
