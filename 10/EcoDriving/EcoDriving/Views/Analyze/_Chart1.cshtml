@@ -6,8 +6,8 @@
    <script type="text/javascript" src="@Url.Content("/amcharts/amcharts/serial.js")"></script>
 }
 
-
-<div id="chartdiv" style="width: 640px; height: 400px;"></div>
+<!-- todo dac id diva unikatowo dla kazdego renderowanego, uzyc html.raw zeby skleic id z wartoscia z modelu -->
+<div id="chartdivPartial" style="width: 640px; height: 400px;"></div>
     
     <script type="text/javascript">
 
@@ -24,6 +24,7 @@
     
 <script type="text/javascript">
     AmCharts.ready(function () {
+        
         // chart code will go here
         // console.log(chartData, 'Dziala !!');
         // http://www.amcharts.com/tutorials/your-first-chart-with-amcharts/
@@ -43,8 +44,7 @@
 		graph.lineThickness = 2,
         chart.addGraph(graph);
 
-        chart.write('chartdiv');
-
+        chart.write('chartdivPartial');
     });
 </script>
 

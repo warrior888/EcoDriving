@@ -46,7 +46,7 @@
             @{
     foreach (var item in @Model.EcoDrivingData)
     {
-                    @Html.Raw(" { speed: " + item.Speed + ", distance: " + item.Distance/1000 + " }, ");
+                    @Html.Raw(" { speed: " + item.Speed + ", distance: " + item.Distance.ToString().Replace(",", ".") + " }, ");
     }
             }
         ];

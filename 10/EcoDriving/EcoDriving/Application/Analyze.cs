@@ -82,7 +82,7 @@ namespace EcoDriving.Application
 
                 string temp = model.EcoDrivingData[model.EcoDrivingData.Count - 1].FuelConsumption;
                 string temp2 = temp.Split(',').Last();
-                model.FuelUsed = (Math.Round(double.Parse(temp2) * 378.5411784)) / 100.0;
+                model.FuelUsed = (Math.Round(double.Parse(temp2.Replace(".", ",")) * 378.5411784)) / 100.0;
 
                 model.TotalRpm = (Math.Round(model.TotalRpm * 100) / 100);
                 model.AverageSpeed = (Math.Round((model.DriveDistance / ((seconds + (minutes * 60)) / 3600.0)) * 100)) / 100;

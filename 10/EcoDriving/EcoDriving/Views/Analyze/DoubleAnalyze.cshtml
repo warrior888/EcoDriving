@@ -5,7 +5,8 @@
 }
 
     <legend>ANALIZA PORÓWNAWCZA 2 PRZEJAZDÓW</legend>
-    <br/>
+<br/>
+<input type="button" value="Drukuj" onclick="window.open('/Analyze/DoubleAnalyzePrint/?', 'Print version');" />
     <div style="text-align: left; font-size: 20px ">
     <table> 
         <tr><td></td><td>Przejazd 1</td><td>Przejazd 2</td><td>Róznica</td></tr>
@@ -24,7 +25,7 @@
         <tr><td>Średnia Prędkość [km/h]</td><td>@Model.AverageSpeed</td><td>@Model.AverageSpeed2</td><td>@(Math.Round(Model.AverageSpeed2/Model.AverageSpeed*10000-10000) / 100) %</td></tr>
         <tr><td>Średnie Obroty [rpm]</td><td>@Model.AverageRpm </td><td>@Model.AverageRpm2</td><td>@(Math.Round(Model.AverageRpm2/Model.AverageRpm*10000-10000) / 100) %</td></tr>
         <tr><td>Średnia Moc [kw]</td><td>@Model.AveragePower</td><td>@Model.AveragePower2</td><td>@(Math.Round(Model.AveragePower2/Model.AveragePower*10000-10000) / 100) %</td></tr>
-        <tr><td>Średnie Zużycie Paliwa [l/100km]</td><td>@Model.AverageFuel</td><td>@Model.AverageFuel2</td><td>@(Math.Round(Model.AverageFuel2/Model.AverageFuel*10000-10000) / 100) %</td></tr>
+        <tr><td>Średnie Zużycie Paliwa [l/100km]</td><td class="@(Model.AverageFuel >= @Model.AverageFuel2 ? "class1" : "class2") ">@Model.AverageFuel</td><td>@Model.AverageFuel2</td><td>@(Math.Round(Model.AverageFuel2/Model.AverageFuel*10000-10000) / 100) %</td></tr>
 
     </table>      
     </div>

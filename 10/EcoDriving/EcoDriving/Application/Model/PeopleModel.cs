@@ -60,7 +60,7 @@ namespace EcoDriving.Application.Model
             }
         }
 
-        protected override PeopleModel readRow(NpgsqlDataReader reader)
+        protected override PeopleModel readRow(NpgsqlDataReader reader, string[] columns)
         {
             PeopleModel result = new PeopleModel();
 

@@ -142,41 +142,42 @@ namespace EcoDriving.Application.Model
             }
         }
 
-        protected override EcoDriveModel readRow(NpgsqlDataReader reader)
+        protected override EcoDriveModel readRow(NpgsqlDataReader reader, string[] columns = null)
         {
             var result = new EcoDriveModel();
-            //int distaceColumnId = 1;
-            //try
-            //{
-            //    for (int i = 0; i < 20; i++)
-            //    {
-            //        if (reader.GetName(i) == distanceColumn)
-            //        {
-            //            distaceColumnId = i;
-            //            break;
-            //        }
-            //    }
-            //}
-            //catch (Exception)
-            //{
-                
-            //    throw;
-            //}
-            float x = 0;
 
-            result.Id = (int)reader[idColumn];
-            result.FrameTime = reader[frameTimeColumn].ToString();
-            result.FrameTimeDelta = reader[frameTimeDeltaColumn].ToString();
-            result.Rpm = (int)reader[rpmColumn];
-            result.Speed = (int)reader[speedColumn];
-            result.FuelConsumption = reader[fuelConsumptionColumn].ToString();
-            //result.Distance = (float)reader.GetFloat(distaceColumnId); // SPRAWDZIC BO MOZE GENEROWAC ERROR
-            result.Distance = float.Parse(reader[distanceColumn].ToString(), System.Globalization.CultureInfo.InvariantCulture);
-            result.CurrentFuelConsumption = reader[currentFuelConsumptionColumn].ToString();
-            result.EnginePower = (int)reader[enginePowerColumn];
-            result.DriveNum = (int) reader[driveNumColumn];
-            result.UserId = (int) reader[userIdColumn];
-
+            if (columns != null)
+            {
+                result.Id = columns.Contains(idColumn) ? (int)reader[idColumn] : 0;
+                result.FrameTime = columns.Contains(frameTimeColumn) ? reader[frameTimeColumn].ToString() : string.Empty;
+                result.FrameTimeDelta = columns.Contains(frameTimeDeltaColumn) ? reader[frameTimeDeltaColumn].ToString() : string.Empty;
+                // todo zrobic
+//                result.Rpm = (int)reader[rpmColumn];
+//                result.Speed = (int)reader[speedColumn];
+//                result.FuelConsumption = reader[fuelConsumptionColumn].ToString();
+//                result.Distance = float.Parse(reader[distanceColumn].ToString(),
+//                    System.Globalization.CultureInfo.InvariantCulture);
+//                result.CurrentFuelConsumption = reader[currentFuelConsumptionColumn].ToString();
+//                result.EnginePower = (int)reader[enginePowerColumn];
+                result.DriveNum = columns.Contains(driveNumColumn) ? (int)reader[driveNumColumn] : 0;
+//                result.UserId = (int)reader[userIdColumn];
+            }
+            else
+            {
+                result.Id = (int) reader[idColumn];
+                result.FrameTime = reader[frameTimeColumn].ToString();
+                result.FrameTimeDelta = reader[frameTimeDeltaColumn].ToString();
+                result.Rpm = (int) reader[rpmColumn];
+                result.Speed = (int) reader[speedColumn];
+                result.FuelConsumption = reader[fuelConsumptionColumn].ToString();
+                //result.Distance = (float)reader.GetFloat(distaceColumnId); // SPRAWDZIC BO MOZE GENEROWAC ERROR
+                result.Distance = float.Parse(reader[distanceColumn].ToString(),
+                    System.Globalization.CultureInfo.InvariantCulture);
+                result.CurrentFuelConsumption = reader[currentFuelConsumptionColumn].ToString();
+                result.EnginePower = (int) reader[enginePowerColumn];
+                result.DriveNum = (int) reader[driveNumColumn];
+                result.UserId = (int) reader[userIdColumn];
+            }
             return result;
         }
     }

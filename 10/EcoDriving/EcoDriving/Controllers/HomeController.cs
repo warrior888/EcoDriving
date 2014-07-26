@@ -66,23 +66,12 @@ namespace EcoDriving.Controllers
 
             EcoDriveModel ecoModel = new EcoDriveModel();
             List<EcoDriveModel> results =
-                ecoModel.GetData(string.Format("select * from EcoDriving where userId = {0}", id));
-            List<EcoDriveModel> drives = new List<EcoDriveModel>();
-            int temp = 0;
-            foreach (var item in results)
-            {
-                if (temp!=item.DriveNum)
-                {
-                    drives.Add(item);
-                    temp++;
-                }
-            }
-                        // TASK! Dopisać logike ktora stworzy liste przejazdow a nie ilość (bo mogą być luki jak sie usunie) I użyć SELECT MAX jakiegoś a nie liczyć TO!
+                ecoModel.GetData(string.Format("select driveNum from EcoDriving where userId = {0} group by driveNum;", id), new [] { "driveNum" });
 
             if (HttpContext.Request.IsAjaxRequest())
             {
                 return Json(new SelectList(
-                    drives,
+                    results,
                     "driveNum",
                     "driveNum"), JsonRequestBehavior.AllowGet
                     );
@@ -126,14 +115,15 @@ namespace EcoDriving.Controllers
                 if (Request.Files.Count > 0)
                 {
                     var file = Request.Files[0];
-                    string path = "C:\\Programowanie\\level 3\\10\\";
+
+                    string path = "C:\\temp\\" + file.FileName; 
 
                     if (file != null && file.ContentLength > 0)
                     {
-                        var fileName = Path.GetFileName(file.FileName);
-                        path += fileName;
+                        //var fileName = Path.GetFileName(file.FileName);
+                        //path += fileName;
                         //path = "C:\\Programowanie\\level 3\\10\\najnowszy.xlsx";
-                        
+                        file.SaveAs(path);
 
                         EcoDriveModel ecoModel = new EcoDriveModel();
                         List<EcoDriveModel> results =
