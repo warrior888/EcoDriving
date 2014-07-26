@@ -1,0 +1,98 @@
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\obj\x86\Debug\EcoDriving.csprojResolveAssemblyReference.cache
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\obj\x86\Debug\EcoDriving.Resources.Translations.resources
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\obj\x86\Debug\EcoDriving.csproj.GenerateResource.Cache
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\EcoDriving.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\EcoDriving.pdb
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\Antlr3.Runtime.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\EntityFramework.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\GhostRider.DatabaseAccess.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\log4net.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\Mono.Security.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\Newtonsoft.Json.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\Npgsql.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Net.Http.Formatting.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.Http.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.Http.WebHost.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.Mvc.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.Optimization.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.Providers.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.Razor.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.WebPages.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.WebPages.Razor.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\WebGrease.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\XlsParser.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\XlsParser.pdb
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\GhostRider.DatabaseAccess.pdb
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\log4net.xml
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\Npgsql.xml
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\EntityFramework.xml
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\Newtonsoft.Json.xml
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Net.Http.Formatting.xml
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.Http.xml
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.Http.WebHost.xml
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.Mvc.xml
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.Razor.xml
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.WebPages.xml
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\System.Web.WebPages.Razor.xml
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\de\Npgsql.resources.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\es\Npgsql.resources.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\fi\Npgsql.resources.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\fr\Npgsql.resources.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\ja\Npgsql.resources.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\bin\zh-CN\Npgsql.resources.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\obj\x86\Debug\EcoDriving.dll
+C:\Users\Binolski\Downloads\10\10\ecodriving\EcoDriving\obj\x86\Debug\EcoDriving.pdb
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\EcoDriving.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\EcoDriving.pdb
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\Antlr3.Runtime.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\EntityFramework.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\GhostRider.DatabaseAccess.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\LinqToExcel.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\log4net.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\Microsoft.Web.Infrastructure.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\Mono.Security.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\Newtonsoft.Json.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\Npgsql.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\Remotion.Data.Linq.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Net.Http.Formatting.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.Http.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.Http.WebHost.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.Mvc.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.Optimization.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.Providers.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.Razor.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.WebPages.Deployment.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.WebPages.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.WebPages.Razor.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\WebGrease.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\XlsParser.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\XlsParser.pdb
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\GhostRider.DatabaseAccess.pdb
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\log4net.xml
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\Npgsql.xml
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\EntityFramework.xml
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\Newtonsoft.Json.xml
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Net.Http.Formatting.xml
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.Http.xml
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.Http.WebHost.xml
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.Mvc.xml
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.Razor.xml
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.WebPages.xml
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.WebPages.Deployment.xml
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\System.Web.WebPages.Razor.xml
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\de\Npgsql.resources.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\es\Npgsql.resources.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\fi\Npgsql.resources.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\fr\Npgsql.resources.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\ja\Npgsql.resources.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\bin\zh-CN\Npgsql.resources.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\obj\x86\Debug\EcoDriving.csprojResolveAssemblyReference.cache
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\obj\x86\Debug\EcoDriving.Resources.Translations.resources
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\obj\x86\Debug\EcoDriving.csproj.GenerateResource.Cache
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\obj\x86\Debug\EcoDriving.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\obj\x86\Debug\EcoDriving.pdb

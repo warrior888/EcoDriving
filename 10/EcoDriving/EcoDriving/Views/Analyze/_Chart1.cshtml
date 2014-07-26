@@ -1,0 +1,51 @@
+﻿@model EcoDriving.Models.AnalyzeModel
+
+@section JavaScript
+{
+   <script type="text/javascript" src="@Url.Content("/amcharts/amcharts/amcharts.js")"></script>
+   <script type="text/javascript" src="@Url.Content("/amcharts/amcharts/serial.js")"></script>
+}
+
+
+<div id="chartdiv" style="width: 640px; height: 400px;"></div>
+    
+    <script type="text/javascript">
+
+        var chartData = [
+            @{
+    foreach (var item in @Model.EcoDrivingData)
+    {
+                    @Html.Raw(" { speed: " + item.Speed + ", order: " + int.Parse(item.FrameTime)/1000 + " }, ");
+    }
+            }
+        ];
+
+    </script>
+    
+<script type="text/javascript">
+    AmCharts.ready(function () {
+        // chart code will go here
+        // console.log(chartData, 'Dziala !!');
+        // http://www.amcharts.com/tutorials/your-first-chart-with-amcharts/
+
+        var chart = new AmCharts.AmSerialChart();
+        chart.dataProvider = chartData;
+        chart.categoryField = "order";
+
+        var graph = new AmCharts.AmGraph();
+        graph.valueField = "speed";
+
+        chart.angle = 30;
+        chart.depth3D = 15;
+        graph.type = "smoothedLine";
+        graph.fillAlphas = 0.3;
+        graph.lineAlpha = 1,
+		graph.lineThickness = 2,
+        chart.addGraph(graph);
+
+        chart.write('chartdiv');
+
+    });
+</script>
+
+<h3>Wykres nr1 - Prędkość[km/h] / Czas [s]</h3>

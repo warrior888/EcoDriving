@@ -1,0 +1,30 @@
+﻿@model EcoDriving.Models.AnalyzeModel
+
+@{
+    ViewBag.Title = "DoubleAnalyze";
+}
+
+    <legend>ANALIZA PORÓWNAWCZA 2 PRZEJAZDÓW</legend>
+    <br/>
+    <div style="text-align: left; font-size: 20px ">
+    <table> 
+        <tr><td></td><td>Przejazd 1</td><td>Przejazd 2</td><td>Róznica</td></tr>
+        <tr><td>Imie</td><td>@Model.Name</td><td>@Model.Name2</td><td></td></tr>
+        <tr><td>Nazwisko</td><td>@Model.Surname</td><td>@Model.Surname2</td><td></td></tr>
+        <tr><td>Nr Przejazdu</td><td>@Model.DriveNumber</td><td>@Model.DriveNumber2</td><td></td></tr>
+        <tr><td>Dystans [km]</td><td>@Model.DriveDistance</td><td>@Model.DriveDistance2</td><td>@(Math.Round(Model.DriveDistance2/Model.DriveDistance*10000-10000) / 100) %</td></tr>
+        <tr><td>Czas Przejazdu [m:s]</td><td>@Model.DriveTimeMinute:@Model.DriveTimeSeconds</td><td>@Model.DriveTimeMinute2:@Model.DriveTimeSeconds2</td><td>@(Math.Round((Model.DriveTimeMinute2 *60 + Model.DriveTimeSeconds2)/(double)(Model.DriveTimeMinute *60 + Model.DriveTimeSeconds) *10000-10000) / 100) %</td></tr>
+        <tr><td>Czas Postoju [s]</td><td>@Model.TimeOfStop</td><td>@Model.TimeOfStop2</td><td>@(Math.Round(Model.TimeOfStop2/Model.TimeOfStop*10000-10000) / 100) %</td></tr>
+        <tr><td>Ilość Zatrzymań</td><td>@Model.NumberOfStops</td><td>@Model.NumberOfStops2</td><td>@(Math.Round(Model.NumberOfStops2/(double)Model.NumberOfStops*10000-10000) / 100) %</td></tr>
+        <tr><td>Całkowita Ilość Obrotów</td><td>@Model.TotalRpm</td><td>@Model.TotalRpm2</td><td>@(Math.Round(Model.TotalRpm2/(double)Model.TotalRpm*10000-10000) / 100) %</td></tr>
+        <tr><td>Zużyte Paliwo [l]</td><td>@Model.FuelUsed</td><td>@Model.FuelUsed2</td><td>@(Math.Round(Model.FuelUsed2/Model.FuelUsed*10000-10000) / 100) %</td></tr>
+        <tr><td>Maxymalne Obroty [rpm]</td><td>@Model.MaxRpm</td><td>@Model.MaxRpm2</td><td>@(Math.Round(Model.MaxRpm2/(double)Model.MaxRpm*10000-10000) / 100) %</td></tr>
+        <tr><td>Maxymalna Prędkość [km/h]</td><td>@Model.MaxSpeed</td><td>@Model.MaxSpeed2</td><td>@(Math.Round(Model.MaxSpeed2/(double)Model.MaxSpeed*10000-10000) / 100) %</td></tr>
+        <tr><td>Maxymalna Moc [kw]</td><td>@Model.MaxPower</td><td>@Model.MaxPower2</td><td>@(Math.Round(Model.MaxPower2/(double)Model.MaxPower*10000-10000) / 100) %</td></tr>
+        <tr><td>Średnia Prędkość [km/h]</td><td>@Model.AverageSpeed</td><td>@Model.AverageSpeed2</td><td>@(Math.Round(Model.AverageSpeed2/Model.AverageSpeed*10000-10000) / 100) %</td></tr>
+        <tr><td>Średnie Obroty [rpm]</td><td>@Model.AverageRpm </td><td>@Model.AverageRpm2</td><td>@(Math.Round(Model.AverageRpm2/Model.AverageRpm*10000-10000) / 100) %</td></tr>
+        <tr><td>Średnia Moc [kw]</td><td>@Model.AveragePower</td><td>@Model.AveragePower2</td><td>@(Math.Round(Model.AveragePower2/Model.AveragePower*10000-10000) / 100) %</td></tr>
+        <tr><td>Średnie Zużycie Paliwa [l/100km]</td><td>@Model.AverageFuel</td><td>@Model.AverageFuel2</td><td>@(Math.Round(Model.AverageFuel2/Model.AverageFuel*10000-10000) / 100) %</td></tr>
+
+    </table>      
+    </div>

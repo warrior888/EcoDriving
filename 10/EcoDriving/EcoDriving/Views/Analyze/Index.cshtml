@@ -1,0 +1,48 @@
+﻿@model EcoDriving.Models.AnalyzeModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Kierowca: @Model.Name @Model.Surname <br/> Analiza przejazdu nr: @Model.DriveNumber</h2>
+
+<h4>Dystans Przejazdu: @Model.DriveDistance km. <br/>
+    Czas Przejazdu: @Model.DriveTimeMinute:@Model.DriveTimeSeconds s. <br/>
+    Czas Postoju: @Model.TimeOfStop s.<br/>
+    Ilość zachamowań do 0km/h: @Model.NumberOfStops <br/>
+    Zużyte Paliwo: @Model.FuelUsed l.<br/>
+    Średnia Prędkość: @Model.AverageSpeed km/h <br/>
+    Średnie Zużycie Paliwa: @Model.AverageFuel l/100km
+
+
+</h4>
+
+<fieldset>
+    <legend>AnalyzeModel</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdPerson)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdPerson)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DriveNumber)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DriveNumber)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Analyze)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Analyze)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
