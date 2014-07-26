@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoDriving", "EcoDriving\EcoDriving.csproj", "{44C6AEEA-F218-495C-958C-7CBB9D0819A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XlsParser", "..\..\..\6\xlsparser\xlsparser\XlsParser.csproj", "{6E506F85-6333-4028-B2DF-2CD9071D883A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XlsParser", "..\..\6\xlsparser\xlsparser\XlsParser.csproj", "{6E506F85-6333-4028-B2DF-2CD9071D883A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseAccess", "..\..\..\8\databaseaccess\databaseaccess\DatabaseAccess.csproj", "{2DD1882D-823D-492F-BDE2-B419ADB7422A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseAccess", "..\..\8\databaseaccess\databaseaccess\DatabaseAccess.csproj", "{2DD1882D-823D-492F-BDE2-B419ADB7422A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -37,7 +37,12 @@ namespace GhostRider.DatabaseAccess.DAL.Fields
                  type = FieldValue.GetType();
              }
 
-             return String.Format("{0}{1}{0}",surroundings[type], FieldValue);
+             if (surroundings.ContainsKey(type))
+             {
+                 return string.Format("{0}{1}{0}", surroundings[type], FieldValue);
+             }
+
+             return string.Format("'{0}'", FieldValue);
              // insert into tabela (Id, Name, Birth) values (1, 'Domi', '1993-03-13 03:03:03')
          }
 

@@ -43,7 +43,7 @@ namespace GhostRider.DatabaseAccess.Model
             }
         }
 
-        protected override PeopleModel readRow(NpgsqlDataReader reader)
+        protected override PeopleModel readRow(NpgsqlDataReader reader, string[] columns)
         {
             throw new System.NotImplementedException();
         }

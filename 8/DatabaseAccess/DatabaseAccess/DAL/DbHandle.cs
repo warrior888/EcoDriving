@@ -24,7 +24,7 @@ namespace GhostRider.DatabaseAccess.DAL
                 connection.Open();
         }
 
-        public List<T> GetData(string select)
+        public List<T> GetData(string select, string[] columns = null)
         {
             Connect();
             NpgsqlCommand selectCommand = new NpgsqlCommand(select, connection);
@@ -32,7 +32,7 @@ namespace GhostRider.DatabaseAccess.DAL
 
             NpgsqlDataReader reader = adapter.SelectCommand.ExecuteReader();
 
-            return GetRowsList(reader);
+            return GetRowsList(reader, columns);
 
         }
 
@@ -45,14 +45,14 @@ namespace GhostRider.DatabaseAccess.DAL
             adapter.SelectCommand.ExecuteNonQuery();
         }
 
-        protected abstract T readRow(NpgsqlDataReader reader);
+        protected abstract T readRow(NpgsqlDataReader reader, string[] columns = null);
 
-        protected List<T> GetRowsList(NpgsqlDataReader reader)
+        protected List<T> GetRowsList(NpgsqlDataReader reader, string[] columns = null)
         {
             List<T> result = new List<T>();
             while (reader.Read())
             {
-                result.Add(readRow(reader));
+                result.Add(readRow(reader, columns));
             }
 
             return result;
