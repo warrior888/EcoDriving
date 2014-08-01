@@ -13,3 +13,7 @@ D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\6\XlsParser\XlsParse
 D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\6\XlsParser\XlsParser\bin\Debug\XlsParser.pdb
 D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\6\XlsParser\XlsParser\obj\Debug\XlsParser.dll
 D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\6\XlsParser\XlsParser\obj\Debug\XlsParser.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\6\xlsparser\xlsparser\bin\Debug\XlsParser.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\6\xlsparser\xlsparser\bin\Debug\XlsParser.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\6\xlsparser\xlsparser\obj\Debug\XlsParser.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\6\xlsparser\xlsparser\obj\Debug\XlsParser.pdb

@@ -265,6 +265,7 @@
     <Content Include="Views\Analyze\SingleAnalyze.cshtml" />
     <Content Include="Views\Analyze\_Chart1.cshtml" />
     <Content Include="Views\Analyze\DoubleAnalyze.cshtml" />
+    <Content Include="Views\Analyze\DoubleAnalyzePrint.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Application\DAL\" />
@@ -274,11 +275,11 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\6\xlsparser\xlsparser\XlsParser.csproj">
+    <ProjectReference Include="..\..\..\6\xlsparser\xlsparser\XlsParser.csproj">
       <Project>{6e506f85-6333-4028-b2df-2cd9071d883a}</Project>
       <Name>XlsParser</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\8\databaseaccess\databaseaccess\DatabaseAccess.csproj">
+    <ProjectReference Include="..\..\..\8\databaseaccess\databaseaccess\DatabaseAccess.csproj">
       <Project>{2dd1882d-823d-492f-bde2-b419adb7422a}</Project>
       <Name>DatabaseAccess</Name>
     </ProjectReference>

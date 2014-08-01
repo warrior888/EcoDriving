@@ -39,3 +39,16 @@ D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DatabaseAccess\Dat
 D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DatabaseAccess\DatabaseAccess\obj\Debug\GhostRider.DatabaseAccess.dll
 D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\DatabaseAccess\DatabaseAccess\obj\Debug\GhostRider.DatabaseAccess.pdb
 D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\8\databaseaccess\databaseaccess\obj\Debug\DatabaseAccess.csprojResolveAssemblyReference.cache
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\bin\Debug\GhostRider.DatabaseAccess.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\bin\Debug\GhostRider.DatabaseAccess.pdb
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\bin\Debug\Mono.Security.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\bin\Debug\Npgsql.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\bin\Debug\Npgsql.xml
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\bin\Debug\de\Npgsql.resources.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\bin\Debug\es\Npgsql.resources.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\bin\Debug\fi\Npgsql.resources.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\bin\Debug\fr\Npgsql.resources.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\bin\Debug\ja\Npgsql.resources.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\bin\Debug\zh-CN\Npgsql.resources.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\obj\Debug\GhostRider.DatabaseAccess.dll
+D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\8\databaseaccess\databaseaccess\obj\Debug\GhostRider.DatabaseAccess.pdb

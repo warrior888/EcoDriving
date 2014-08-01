@@ -66,7 +66,7 @@ namespace EcoDriving.Controllers
 
             EcoDriveModel ecoModel = new EcoDriveModel();
             List<EcoDriveModel> results =
-                ecoModel.GetData(string.Format("select driveNum from EcoDriving where userId = {0} group by driveNum;", id), new [] { "driveNum" });
+                ecoModel.GetData(string.Format("select driveNum from EcoDriving where userId = {0} group by driveNum order by driveNum;", id), new[] { "driveNum" });
 
             if (HttpContext.Request.IsAjaxRequest())
             {

@@ -54,7 +54,7 @@ namespace GhostRider.DatabaseAccess.DAL
         public void SaveData()
         {
             string insert = GetInsertCommand();
-            this.SaveData(insert);
+            base.SaveData(insert);
         }
     }
 }

@@ -11,17 +11,28 @@ namespace GhostRider.DatabaseAccess.DAL
         private const string connectionString =
             "Server=127.0.0.1;Port=5432;Database=szkolenie;User Id=postgres; Password=beatka;";
 
-        private static NpgsqlConnection connection;
+        private NpgsqlConnection connection;
 
         static DbHandle()
         {
-            connection = new NpgsqlConnection(connectionString);
-
+            //connection = new NpgsqlConnection(connectionString);
         }
         private void Connect()
         {
+            if (connection == null)
+            {
+                connection = new NpgsqlConnection(connectionString);
+            }
+
             if (connection.State != ConnectionState.Open)
+            {
                 connection.Open();
+            }
+        }
+
+        private void Disconnect()
+        {
+            connection.Close();
         }
 
         public List<T> GetData(string select, string[] columns = null)
@@ -33,7 +44,6 @@ namespace GhostRider.DatabaseAccess.DAL
             NpgsqlDataReader reader = adapter.SelectCommand.ExecuteReader();
 
             return GetRowsList(reader, columns);
-
         }
 
         public void SaveData(string saveCommand)
@@ -43,6 +53,8 @@ namespace GhostRider.DatabaseAccess.DAL
 
             NpgsqlDataAdapter adapter = new NpgsqlDataAdapter(saveDaCommand);
             adapter.SelectCommand.ExecuteNonQuery();
+
+            Disconnect();
         }
 
         protected abstract T readRow(NpgsqlDataReader reader, string[] columns = null);
@@ -54,6 +66,8 @@ namespace GhostRider.DatabaseAccess.DAL
             {
                 result.Add(readRow(reader, columns));
             }
+
+            Disconnect();
 
             return result;
         }
