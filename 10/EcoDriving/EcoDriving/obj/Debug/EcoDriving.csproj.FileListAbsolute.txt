@@ -146,3 +146,13 @@ D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\10\EcoDriving\E
 D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\10\EcoDriving\EcoDriving\bin\fr\Npgsql.resources.dll
 D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\10\EcoDriving\EcoDriving\bin\ja\Npgsql.resources.dll
 D:\praca\nowy potencjal\szkolenie\Dropbox\Szkolenie\level 3\repo\10\EcoDriving\EcoDriving\bin\zh-CN\Npgsql.resources.dll
+C:\Users\Binolski\Documents\EcoDriving\10\EcoDriving\EcoDriving\obj\Debug\EcoDriving.csprojResolveAssemblyReference.cache
+C:\Users\Binolski\Documents\EcoDriving\10\EcoDriving\EcoDriving\obj\Debug\EcoDriving.Resources.Translations.resources
+C:\Users\Binolski\Documents\EcoDriving\10\EcoDriving\EcoDriving\obj\Debug\EcoDriving.csproj.GenerateResource.Cache
+C:\Users\Binolski\Documents\EcoDriving\10\EcoDriving\EcoDriving\obj\Debug\EcoDriving.dll
+C:\Users\Binolski\Documents\EcoDriving\10\EcoDriving\EcoDriving\obj\Debug\EcoDriving.pdb
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\obj\Debug\EcoDriving.csprojResolveAssemblyReference.cache
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\obj\Debug\EcoDriving.Resources.Translations.resources
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\obj\Debug\EcoDriving.csproj.GenerateResource.Cache
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\obj\Debug\EcoDriving.dll
+C:\Programowanie\level 3\10\EcoDriving\EcoDriving\obj\Debug\EcoDriving.pdb

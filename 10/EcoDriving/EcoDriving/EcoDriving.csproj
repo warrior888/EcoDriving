@@ -265,7 +265,6 @@
     <Content Include="Views\Analyze\SingleAnalyze.cshtml" />
     <Content Include="Views\Analyze\_Chart1.cshtml" />
     <Content Include="Views\Analyze\DoubleAnalyze.cshtml" />
-    <Content Include="Views\Analyze\DoubleAnalyzePrint.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Application\DAL\" />

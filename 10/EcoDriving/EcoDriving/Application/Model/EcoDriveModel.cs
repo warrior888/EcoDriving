@@ -171,8 +171,16 @@ namespace EcoDriving.Application.Model
                 result.Speed = (int) reader[speedColumn];
                 result.FuelConsumption = reader[fuelConsumptionColumn].ToString();
                 //result.Distance = (float)reader.GetFloat(distaceColumnId); // SPRAWDZIC BO MOZE GENEROWAC ERROR
-                result.Distance = float.Parse(reader[distanceColumn].ToString(),
-                    System.Globalization.CultureInfo.InvariantCulture);
+                if (!string.IsNullOrEmpty(reader[distanceColumn].ToString()))
+                {
+                    result.Distance = float.Parse(reader[distanceColumn].ToString(), 
+                        System.Globalization.CultureInfo.InvariantCulture);
+                }
+                else
+                {
+                    result.Distance = 0;
+                }
+
                 result.CurrentFuelConsumption = reader[currentFuelConsumptionColumn].ToString();
                 result.EnginePower = (int) reader[enginePowerColumn];
                 result.DriveNum = (int) reader[driveNumColumn];

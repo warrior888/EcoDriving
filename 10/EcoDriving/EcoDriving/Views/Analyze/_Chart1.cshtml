@@ -7,7 +7,7 @@
 }
 
 <!-- todo dac id diva unikatowo dla kazdego renderowanego, uzyc html.raw zeby skleic id z wartoscia z modelu -->
-<div id="chartdivPartial" style="width: 640px; height: 400px;"></div>
+<div id="chartdiv2" style="width: 640px; height: 400px;"></div>
     
     <script type="text/javascript">
 
@@ -21,31 +21,76 @@
         ];
 
     </script>
-    
-<script type="text/javascript">
-    AmCharts.ready(function () {
-        
-        // chart code will go here
-        // console.log(chartData, 'Dziala !!');
-        // http://www.amcharts.com/tutorials/your-first-chart-with-amcharts/
+ <script type="text/javascript">
+     AmCharts.makeChart("chartdiv2",
+				{
+				    "type": "serial",
+				    "pathToImages": "http://cdn.amcharts.com/lib/3/images/",
+				    "categoryField": "Distance",
+				    "startDuration": 1,
+				    "categoryAxis": {
+				        "gridPosition": "start"
+				    },
+				    "trendLines": [],
+				    "graphs": [
+						{
+						    "balloonText": "[[title]] of [[category]]:[[value]]",
+						    "bullet": "round",
+						    "bulletAlpha": 0,
+						    "id": "AmGraph-1",
+						    "title": "graph 1",
+						    "type": "smoothedLine",
+						    "valueField": "column-1"
+						},
+						{
+						    "balloonText": "[[title]] of [[category]]:[[value]]",
+						    "bullet": "round",
+						    "bulletAlpha": 0,
+						    "id": "AmGraph-2",
+						    "title": "graph 2",
+						    "type": "smoothedLine",
+						    "valueField": "column-2"
+						}
+				    ],
+				    "guides": [],
+				    "valueAxes": [
+						{
+						    "id": "ValueAxis-1",
+						    "title": "Axis title"
+						}
+				    ],
+				    "allLabels": [],
+				    "balloon": {},
+				    "legend": {
+				        "useGraphSettings": true
+				    },
+				    "titles": [
+						{
+						    "id": "Title-1",
+						    "size": 15,
+						    "text": "Chart Title"
+						}
+				    ],
+				    "dataProvider": [
 
-        var chart = new AmCharts.AmSerialChart();
-        chart.dataProvider = chartData;
-        chart.categoryField = "order";
+                      @* @{
+                            foreach (var item in @Model.EcoDrivingData)
+                             {
+                                @Html.Raw("{\"Distance\": \"" + item.Distance + "\", \"column-1\": \"" + item.CurrentFuelConsumption + "\", \"column-2\": \"" + item.CurrentFuelConsumption +"\", },")
+                             }
+                        }*@
+						
+						 @{
+                            for(int i =0 ; i<Model.EcoDrivingData.Count ; i++)
+                             {
+                                @Html.Raw("{\"Distance\": \"" + Model.EcoDrivingData[i].Distance + "\", \"column-1\": \"" + Model.EcoDrivingData[i].CurrentFuelConsumption + "\", \"column-2\": \"" + Model.EcoDrivingData[i].CurrentFuelConsumption +"\", },")
+                             }
+                        }
 
-        var graph = new AmCharts.AmGraph();
-        graph.valueField = "speed";
-
-        chart.angle = 30;
-        chart.depth3D = 15;
-        graph.type = "smoothedLine";
-        graph.fillAlphas = 0.3;
-        graph.lineAlpha = 1,
-		graph.lineThickness = 2,
-        chart.addGraph(graph);
-
-        chart.write('chartdivPartial');
-    });
-</script>
+                 
+				    ]
+				}
+			);
+		</script>
 
 <h3>Wykres nr1 - Prędkość[km/h] / Czas [s]</h3>

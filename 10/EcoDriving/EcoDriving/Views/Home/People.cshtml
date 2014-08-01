@@ -22,14 +22,15 @@
         <br/>
         @Html.TextBoxFor(model => model.Surname)
     </div>
-    
-    <input type="submit" class="ui-button" name="Confirm" value="@Translations.Confirm" />
+    <input type="submit" class="ui-button" style="float: left" name="Confirm" value="@Translations.Confirm" />
 }
 
 @using (Html.BeginForm("People", "Home", FormMethod.Get))
 {
+    <br /><br /><br />
     <h3>Szukaj kursanta:</h3>
-    <div style="float: left; font-size: 20px">
+    <div style="float: left; clear: both; font-size: 20px">
+        
         @Html.LabelFor(model => model.Name)   
         @Html.Raw(" : ")  
         <br/>
@@ -41,9 +42,9 @@
         @Html.TextBoxFor(model => model.Surname)
     </div>
     
-    <input type="submit" class="ui-button" name="Search" value="@Translations.Search" />
+    <input type="submit" class="ui-button" style="float: left" name="Search" value="@Translations.Search" />
 }
-
+<br />
 <h3>
 <table>
     @if (Model.SearchResults != null)

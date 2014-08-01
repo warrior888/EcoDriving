@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 using EcoDriving.Application.Model;
@@ -29,7 +30,8 @@ namespace EcoDriving.Application
                 model.Name = resultPerson[0].Name;
                 model.Surname = resultPerson[0].Surname;
 
-                model.DriveDistance = model.EcoDrivingData[model.EcoDrivingData.Count - 1].Distance;
+                model.DriveDistance = (float) (Math.Round(((model.EcoDrivingData[model.EcoDrivingData.Count - 1].Distance) - model.EcoDrivingData[30].Distance) * 100) / 100);
+
                 int seconds = int.Parse(model.EcoDrivingData[model.EcoDrivingData.Count - 1].FrameTime) / 1000;
                 int minutes = seconds/60;
                 seconds -= minutes*60;
@@ -77,12 +79,19 @@ namespace EcoDriving.Application
                         flag = false;
                     }
                 }
-                model.TimeOfStop = timeOnStop / (float)1000;
+                model.TimeOfStop = (float) ((Math.Round(timeOnStop / (double)10)) /100.0);
                 model.NumberOfStops = numberOfStops;
-
-                string temp = model.EcoDrivingData[model.EcoDrivingData.Count - 1].FuelConsumption;
-                string temp2 = temp.Split(',').Last();
-                model.FuelUsed = (Math.Round(double.Parse(temp2.Replace(".", ",")) * 378.5411784)) / 100.0;
+            //int i = 0;
+            //for ( ; i < model.EcoDrivingData.Count; i++)
+            //{
+            //    if (string.IsNullOrEmpty(model.EcoDrivingData[i].ToString()))
+            //    {
+            //        break;
+            //    }
+            //}
+                string temp = model.EcoDrivingData[30].FuelConsumption.Split(',').Last();
+                string temp2 = model.EcoDrivingData[model.EcoDrivingData.Count - 1].FuelConsumption.Split(',').Last();
+                model.FuelUsed = ((Math.Round(double.Parse(temp2.Replace(".", ","), new CultureInfo("pl-PL")) * 100)) / 100.0) - ((Math.Round(double.Parse(temp.Replace(".", ","), new CultureInfo("pl-PL")) * 100)) / 100.0);
 
                 model.TotalRpm = (Math.Round(model.TotalRpm * 100) / 100);
                 model.AverageSpeed = (Math.Round((model.DriveDistance / ((seconds + (minutes * 60)) / 3600.0)) * 100)) / 100;

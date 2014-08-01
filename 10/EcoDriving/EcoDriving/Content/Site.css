@@ -176,6 +176,14 @@ ul#menu li.selected a
     float: right;
 }
 
+.ziel {
+    color: #32cd32;
+}
+
+.czerw {
+    color: #ff0000;
+}
+
 .ui-selectable {
     width: 200px;
     padding: 4px 10px;

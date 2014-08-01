@@ -32,8 +32,6 @@ namespace EcoDriving.Application.Parsing
         private readonly string currentFuelConsumption = "CALC#FC#IFC";
         private readonly string enginePower = "CALC#ENGINE_POWER";
 
-        private readonly string workSheet = "najnowszy";
-
         public override Dictionary<string, EcoDriveModel> getModelData(ExcelQueryFactory queryFactory)
         {
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.Id, frameNumber);
@@ -45,7 +43,7 @@ namespace EcoDriving.Application.Parsing
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.Distance, distance);
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.CurrentFuelConsumption, currentFuelConsumption);
             queryFactory.AddMapping<EcoDriveModel>(ecoDrive => ecoDrive.EnginePower, enginePower);
-
+            var dupa = queryFactory.GetWorksheetNames().First();
             var drive = queryFactory.Worksheet<EcoDriveModel>(queryFactory.GetWorksheetNames().First()).Select(x => (EcoDriveModel)x);
             var resoult = new Dictionary<string, EcoDriveModel>();
 
